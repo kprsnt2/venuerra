@@ -21,7 +21,7 @@ export default function About() {
             <div className="stat-label">Years Experience</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">{PROFILE.experience.length}-</div>
+            <div className="stat-number">{PROFILE.experience.length}</div>
             <div className="stat-label">Roles Held</div>
           </div>
           <div className="stat-card">
