@@ -1,0 +1,101 @@
+{
+  "lastUpdated": "2026-03-19T07:30:00Z",
+  "claude": {
+    "model": "claude-opus-4-6",
+    "generated_date": "2026-03-19",
+    "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
+    "jobs": [
+      {
+        "id": "sample-pm-uk-1",
+        "title": "Senior Project Manager - Rail Infrastructure",
+        "company": "Network Rail",
+        "location": "London, UK",
+        "salary": "£65,000 - £85,000",
+        "match_score": 95,
+        "tier": 1,
+        "tags": ["Rail", "Project Management", "PRINCE2", "PMP"],
+        "why_match": "Direct rail transport experience with PRINCE2 and PMP certifications perfectly aligned",
+        "apply_url": "https://www.networkrail.co.uk/careers",
+        "posted": "2026-03-18",
+        "status": "new"
+      },
+      {
+        "id": "sample-pm-uk-2",
+        "title": "Project Manager - Automotive Programs",
+        "company": "Jaguar Land Rover",
+        "location": "Coventry, UK",
+        "salary": "£60,000 - £80,000",
+        "match_score": 88,
+        "tier": 1,
+        "tags": ["Automotive", "Project Management", "Agile"],
+        "why_match": "Strong automotive domain experience with project management expertise",
+        "apply_url": "https://www.jaguarlandrovercareers.com",
+        "posted": "2026-03-18",
+        "status": "new"
+      },
+      {
+        "id": "sample-pm-remote-1",
+        "title": "Remote Project Manager - Transport Systems",
+        "company": "WSP Global",
+        "location": "Remote (UK-based)",
+        "salary": "£55,000 - £75,000",
+        "match_score": 82,
+        "tier": 2,
+        "tags": ["Transport", "Remote", "PMP", "Stakeholder Management"],
+        "why_match": "Transport infrastructure focus with flexible remote arrangement",
+        "apply_url": "https://www.wsp.com/careers",
+        "posted": "2026-03-17",
+        "status": "new"
+      }
+    ]
+  },
+  "gemini": {
+    "model": "gemini-3.1-pro",
+    "generated_date": "2026-03-19",
+    "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
+    "jobs": [
+      {
+        "id": "sample-g-pm-hyd-1",
+        "title": "Senior Project Manager - Automotive",
+        "company": "Tata Technologies",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹25-40 LPA",
+        "match_score": 90,
+        "tier": 1,
+        "tags": ["Automotive", "Project Management", "Agile", "Scrum"],
+        "why_match": "Automotive domain match with senior PM role in preferred Hyderabad location",
+        "apply_url": "https://www.tatatechnologies.com/careers",
+        "posted": "2026-03-18",
+        "status": "new"
+      },
+      {
+        "id": "sample-g-pm-uk-1",
+        "title": "Principal Project Manager - Railway Signalling",
+        "company": "Siemens Mobility",
+        "location": "London, UK",
+        "salary": "£70,000 - £90,000",
+        "match_score": 93,
+        "tier": 1,
+        "tags": ["Rail", "Signalling", "PRINCE2", "PMP"],
+        "why_match": "Rail signalling domain with strong PM certification requirements matching exactly",
+        "apply_url": "https://www.siemens.com/careers",
+        "posted": "2026-03-18",
+        "status": "new"
+      },
+      {
+        "id": "sample-g-pm-remote-1",
+        "title": "Scrum Master / Project Lead - Remote",
+        "company": "Capgemini",
+        "location": "Remote",
+        "salary": "£50,000 - £65,000",
+        "match_score": 80,
+        "tier": 2,
+        "tags": ["Scrum Master", "CSM", "Agile", "Remote"],
+        "why_match": "CSM certification valued, agile leadership in remote setup",
+        "apply_url": "https://www.capgemini.com/careers",
+        "posted": "2026-03-17",
+        "status": "new"
+      }
+    ]
+  }
+}

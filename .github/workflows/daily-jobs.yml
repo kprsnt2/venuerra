@@ -1,0 +1,48 @@
+name: Daily Job Search
+
+on:
+  schedule:
+    # 7:30 AM UTC = 1:00 PM IST
+    - cron: '30 7 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  find-jobs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Vertex AI SDKs
+        run: npm install @google-cloud/vertexai @anthropic-ai/vertex-sdk
+
+      - name: Run AI Job Finder
+        env:
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT }}
+          GOOGLE_CLOUD_REGION_CLAUDE: ${{ secrets.GOOGLE_CLOUD_REGION_CLAUDE }}
+          GOOGLE_CLOUD_REGION_GEMINI: ${{ secrets.GOOGLE_CLOUD_REGION_GEMINI }}
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
+          CLAUDE_MODEL_ID: ${{ secrets.CLAUDE_MODEL_ID }}
+          GEMINI_MODEL_ID: ${{ secrets.GEMINI_MODEL_ID }}
+        run: node scripts/fetch-jobs.mjs
+
+      - name: Commit updated job data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --staged --quiet || git commit -m "🔄 Update job listings - $(date +'%Y-%m-%d %H:%M') UTC"
+          git push
