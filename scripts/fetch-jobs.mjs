@@ -8,8 +8,8 @@
  * Environment variables required:
  *   GEMINI_API_KEY    - Google AI Studio API key for Gemini
  *   ANTHROPIC_API_KEY - Anthropic API key for Claude
- *   CLAUDE_MODEL_ID   - e.g., claude-opus-4-6 (default)
- *   GEMINI_MODEL_ID   - e.g., gemini-2.5-pro (default)
+ *   CLAUDE_MODEL_ID   - e.g., claude-haiku-4-5-20250315 (default)
+ *   GEMINI_MODEL_ID   - e.g., gemini-3.1-pro (default)
  */
 
 import fs from 'fs';
@@ -25,8 +25,8 @@ import { PROFILE } from '../lib/profile-data.js';
 import { buildJobSearchPrompt } from '../lib/job-search.js';
 
 // Config
-const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-opus-4-6';
-const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-2.5-pro';
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-haiku-4-5-20250315';
+const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-3.1-pro';
 
 /**
  * Generate job listings using Gemini via Google GenAI API key

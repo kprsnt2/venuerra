@@ -62,7 +62,7 @@ export default function JobTabs({ jobData }) {
           onClick={() => setActiveTab('claude')}
           id="tab-claude"
         >
-          🟣 Claude <span className="tab-model-tag">Opus 4.6</span>
+          🟣 Claude <span className="tab-model-tag">Haiku 4.5</span>
         </button>
         <button
           className={`tab-btn ${activeTab === 'gemini' ? 'active' : ''}`}
