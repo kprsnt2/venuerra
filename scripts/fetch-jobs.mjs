@@ -2,18 +2,14 @@
 
 /**
  * AI Job Finder for Venu Gopal Erra
- * Uses Vertex AI to query both Claude Opus 4.6 and Gemini 3.1 Pro
- * for curated job listings matching the profile.
- * 
+ * Uses Claude and Gemini via API keys to curate job listings.
  * Saves results as JSON to data/jobs.json for the website to render.
  * 
  * Environment variables required:
- *   GOOGLE_CLOUD_PROJECT         - GCP project ID
- *   GOOGLE_CLOUD_REGION_CLAUDE   - Region for Claude (e.g., us-east5)
- *   GOOGLE_CLOUD_REGION_GEMINI   - Region for Gemini (e.g., us-central1)
- *   GOOGLE_APPLICATION_CREDENTIALS_JSON - Base64 encoded service account key
- *   CLAUDE_MODEL_ID              - e.g., claude-opus-4-6@20250514 (default)
- *   GEMINI_MODEL_ID              - e.g., gemini-3.1-pro (default)
+ *   GEMINI_API_KEY    - Google AI Studio API key for Gemini
+ *   ANTHROPIC_API_KEY - Anthropic API key for Claude
+ *   CLAUDE_MODEL_ID   - e.g., claude-opus-4-6 (default)
+ *   GEMINI_MODEL_ID   - e.g., gemini-2.5-pro (default)
  */
 
 import fs from 'fs';
@@ -29,51 +25,67 @@ import { PROFILE } from '../lib/profile-data.js';
 import { buildJobSearchPrompt } from '../lib/job-search.js';
 
 // Config
-const PROJECT_ID = process.env.GOOGLE_CLOUD_PROJECT || '';
-const REGION_CLAUDE = process.env.GOOGLE_CLOUD_REGION_CLAUDE || 'us-east5';
-const REGION_GEMINI = process.env.GOOGLE_CLOUD_REGION_GEMINI || 'us-central1';
-const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-opus-4-6@20250514';
-const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-3.1-pro';
+const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-opus-4-6';
+const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-2.5-pro';
 
 /**
- * Set up GCP credentials from the base64-encoded JSON env variable
+ * Generate job listings using Gemini via Google GenAI API key
  */
-function setupCredentials() {
-  const credsJson = process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON;
-  if (credsJson) {
-    const decoded = Buffer.from(credsJson, 'base64').toString('utf-8');
-    const tmpPath = path.join(BASE_DIR, '.tmp-sa-key.json');
-    fs.writeFileSync(tmpPath, decoded);
-    process.env.GOOGLE_APPLICATION_CREDENTIALS = tmpPath;
-    console.log('  ✅ Credentials set from GOOGLE_APPLICATION_CREDENTIALS_JSON');
-    return tmpPath;
-  }
-  if (process.env.GOOGLE_APPLICATION_CREDENTIALS) {
-    console.log('  ✅ Using existing GOOGLE_APPLICATION_CREDENTIALS');
-    return null;
-  }
-  console.log('  ⚠️  No credentials found, will use Application Default Credentials');
-  return null;
-}
-
-/**
- * Generate job listings using Claude on Vertex AI (Anthropic API via Model Garden)
- */
-async function generateWithClaude(prompt) {
-  if (!PROJECT_ID) {
-    console.log('  ⚠️  GOOGLE_CLOUD_PROJECT not set, skipping Claude');
+async function generateWithGemini(prompt) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    console.log('  ⚠️  GEMINI_API_KEY not set, skipping Gemini');
     return null;
   }
 
   try {
-    const { AnthropicVertex } = await import('@anthropic-ai/vertex-sdk');
+    const { GoogleGenAI } = await import('@google/genai');
+    const ai = new GoogleGenAI({ apiKey });
 
-    const client = new AnthropicVertex({
-      projectId: PROJECT_ID,
-      region: REGION_CLAUDE,
+    console.log(`  🔵 Calling Gemini (${GEMINI_MODEL}) ...`);
+
+    const response = await ai.models.generateContent({
+      model: GEMINI_MODEL,
+      contents: prompt,
     });
 
-    console.log(`  🟣 Calling Claude (${CLAUDE_MODEL}) on Vertex AI...`);
+    let text = response.text.trim();
+
+    // Handle code fences
+    if (text.startsWith('```')) {
+      text = text.replace(/^```\w*\n?/, '').replace(/\n?```$/, '').trim();
+    }
+
+    const result = JSON.parse(text);
+    if (result?.jobs?.length > 0) {
+      console.log(`  ✅ Gemini found ${result.jobs.length} jobs`);
+      result.model = GEMINI_MODEL;
+      return result;
+    } else {
+      console.log('  ⚠️  Gemini response missing jobs');
+      return null;
+    }
+  } catch (error) {
+    console.error(`  ⚠️  Gemini error: ${error.message}`);
+    return null;
+  }
+}
+
+/**
+ * Generate job listings using Claude via Anthropic API key
+ */
+async function generateWithClaude(prompt) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    console.log('  ⚠️  ANTHROPIC_API_KEY not set, skipping Claude');
+    return null;
+  }
+
+  try {
+    const Anthropic = (await import('@anthropic-ai/sdk')).default;
+    const client = new Anthropic({ apiKey });
+
+    console.log(`  🟣 Calling Claude (${CLAUDE_MODEL}) ...`);
 
     const response = await client.messages.create({
       model: CLAUDE_MODEL,
@@ -99,56 +111,6 @@ async function generateWithClaude(prompt) {
     }
   } catch (error) {
     console.error(`  ⚠️  Claude error: ${error.message}`);
-    return null;
-  }
-}
-
-/**
- * Generate job listings using Gemini on Vertex AI
- */
-async function generateWithGemini(prompt) {
-  if (!PROJECT_ID) {
-    console.log('  ⚠️  GOOGLE_CLOUD_PROJECT not set, skipping Gemini');
-    return null;
-  }
-
-  try {
-    const { VertexAI } = await import('@google-cloud/vertexai');
-
-    const vertexAI = new VertexAI({
-      project: PROJECT_ID,
-      location: REGION_GEMINI,
-    });
-
-    const model = vertexAI.getGenerativeModel({
-      model: GEMINI_MODEL,
-    });
-
-    console.log(`  🔵 Calling Gemini (${GEMINI_MODEL}) on Vertex AI...`);
-
-    const result = await model.generateContent({
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    });
-
-    const response = result.response;
-    let text = response.candidates[0].content.parts[0].text.trim();
-
-    // Handle code fences
-    if (text.startsWith('```')) {
-      text = text.replace(/^```\w*\n?/, '').replace(/\n?```$/, '').trim();
-    }
-
-    const parsed = JSON.parse(text);
-    if (parsed?.jobs?.length > 0) {
-      console.log(`  ✅ Gemini found ${parsed.jobs.length} jobs`);
-      parsed.model = GEMINI_MODEL;
-      return parsed;
-    } else {
-      console.log('  ⚠️  Gemini response missing jobs');
-      return null;
-    }
-  } catch (error) {
-    console.error(`  ⚠️  Gemini error: ${error.message}`);
     return null;
   }
 }
@@ -230,11 +192,8 @@ async function verifyJobs(jobs) {
  */
 async function main() {
   console.log('🔍 AI Job Finder — Venu Gopal Erra');
-  console.log(`   Project: ${PROJECT_ID || '(not set)'}`);
-  console.log(`   Claude region: ${REGION_CLAUDE}, Model: ${CLAUDE_MODEL}`);
-  console.log(`   Gemini region: ${REGION_GEMINI}, Model: ${GEMINI_MODEL}`);
-
-  const tmpKeyPath = setupCredentials();
+  console.log(`   Claude model: ${CLAUDE_MODEL}`);
+  console.log(`   Gemini model: ${GEMINI_MODEL}`);
 
   const prompt = buildJobSearchPrompt();
 
@@ -281,11 +240,6 @@ async function main() {
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`  💾 Saved: ${OUTPUT_PATH}`);
   console.log(`  📊 Claude: ${claudeData?.jobs?.length || 0} jobs, Gemini: ${geminiData?.jobs?.length || 0} jobs`);
-
-  // Clean up temp key
-  if (tmpKeyPath && fs.existsSync(tmpKeyPath)) {
-    fs.unlinkSync(tmpKeyPath);
-  }
 }
 
 main().catch((err) => {
