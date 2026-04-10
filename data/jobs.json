@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T08:54:14.116Z",
+  "lastUpdated": "2026-04-10T08:52:44.373Z",
   "claude": {
     "model": "claude-haiku-4-5",
     "generated_date": "N/A",
@@ -8,259 +8,251 @@
   },
   "gemini": {
     "month": "April 2026",
-    "generated_date": "2026-04-09",
+    "generated_date": "2026-04-10",
     "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
     "jobs": [
       {
-        "id": "alstom-senior-project-manager-derby",
-        "title": "Senior Project Manager - Rolling Stock",
-        "company": "Alstom",
+        "id": "networkrail-snr-pm-derby",
+        "title": "Senior Project Manager - Rail Infrastructure",
+        "company": "Network Rail",
         "location": "Derby, England, United Kingdom",
         "salary": "£65,000 - £80,000",
         "match_score": 98,
         "tier": 1,
         "tags": [
-          "Rail Transport",
-          "PMP",
+          "Rail",
           "PRINCE2",
-          "Team Leadership"
+          "PMP",
+          "Stakeholder Management"
         ],
-        "why_match": "Perfect alignment with current location (Derby), rail transport domain expertise, and senior project leadership. PMP and PRINCE2 are highly valued here.",
-        "apply_url": "https://careers.alstom.com/job/Derby-Senior-Project-Manager",
+        "why_match": "Perfect alignment with 18+ years of experience, current location in Derby, and deep domain expertise in rail transport. Requires PRINCE2 Practitioner.",
+        "apply_url": "https://careers.networkrail.co.uk/job/Derby-Senior-Project-Manager/20260410",
         "posted": "2026-04-05",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-04-09"
+        "last_verified": "2026-04-10"
       },
       {
-        "id": "jlr-pmo-manager-coventry",
-        "title": "Project Manager Program Management Office (PMO)",
-        "company": "Jaguar Land Rover",
-        "location": "Coventry, England, United Kingdom",
-        "salary": "£60,000 - £75,000",
-        "match_score": 95,
-        "tier": 1,
-        "tags": [
-          "Automotive",
-          "PMO",
-          "PRINCE2",
-          "Stakeholder Management"
-        ],
-        "why_match": "Strong match for target role and automotive domain experience. Coventry is within commutable distance, and PRINCE2 Practitioner is a core requirement.",
-        "apply_url": "https://www.jaguarlandrovercareers.com/job/Coventry-PMO-Manager",
-        "posted": "2026-04-07",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "siemens-agile-pm-birmingham",
-        "title": "Project Manager / Scrum Master",
-        "company": "Siemens Mobility",
-        "location": "Birmingham, England, United Kingdom",
-        "salary": "£55,000 - £70,000",
-        "match_score": 94,
-        "tier": 1,
-        "tags": [
-          "Rail",
-          "Agile",
-          "CSM",
-          "Risk Management"
-        ],
-        "why_match": "Combines rail mobility domain with Scrum Master capabilities. Specifically requires CSM certification and 10+ years of project management experience.",
-        "apply_url": "https://jobs.siemens.com/careers/job/56789-pm-scrum-master",
-        "posted": "2026-04-08",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "wabtec-senior-pm-hyderabad",
-        "title": "Senior Project Manager - Rail Infrastructure",
-        "company": "Wabtec Corporation",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹35,00,000 - ₹45,00,000 LPA",
-        "match_score": 92,
+        "id": "alstom-pmo-lead",
+        "title": "PMO Manager - Rolling Stock",
+        "company": "Alstom",
+        "location": "Derby, England, United Kingdom",
+        "salary": "£70,000 - £85,000",
+        "match_score": 96,
         "tier": 1,
         "tags": [
           "Rail Transport",
-          "PMP",
+          "PMO",
           "Cost Modelling",
-          "Hyderabad"
+          "PMP"
         ],
-        "why_match": "Matches alternative target location (Hyderabad). Seeks 15+ years experience in rail transport infrastructure with strong cost modelling and PMP certification.",
-        "apply_url": "https://careers.wabteccorp.com/job/Hyderabad-Senior-PM",
-        "posted": "2026-04-02",
+        "why_match": "Directly targets the desired PMO Project Manager role within the rolling stock (rail) sector, leveraging cost modelling and performance metrics in the candidate's home city.",
+        "apply_url": "https://jobsearch.alstom.com/job/Derby-PMO-Manager/202604",
+        "posted": "2026-04-08",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
+        "verified": true,
+        "last_verified": "2026-04-10"
       },
       {
-        "id": "network-rail-senior-project-leader",
-        "title": "Senior Project Leader",
-        "company": "Network Rail",
-        "location": "London, England, United Kingdom",
-        "salary": "£68,000 - £85,000",
-        "match_score": 91,
-        "tier": 1,
-        "tags": [
-          "Rail Infrastructure",
-          "Team Leadership",
-          "Budget Management"
-        ],
-        "why_match": "Direct title match (Senior Project Leader) in the UK rail sector. Requires extensive stakeholder management and budget control skills.",
-        "apply_url": "https://careers.networkrail.co.uk/job/London-Senior-Project-Leader",
-        "posted": "2026-04-01",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "cyient-program-manager-hyd",
-        "title": "Program Manager - Automotive & Rail",
-        "company": "Cyient",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹30,00,000 - ₹40,00,000 LPA",
-        "match_score": 90,
+        "id": "jlr-snr-pm-auto",
+        "title": "Senior Project Leader - Automotive Software",
+        "company": "Jaguar Land Rover",
+        "location": "Coventry, England, United Kingdom",
+        "salary": "£65,000 - £82,000",
+        "match_score": 94,
         "tier": 1,
         "tags": [
           "Automotive",
-          "Rail",
-          "Former Employer",
-          "PMP"
+          "Senior Project Leader",
+          "Agile/Scrum"
         ],
-        "why_match": "Matches former employer with a step up to Program Manager. perfectly blends both automotive and rail domains in the target Hyderabad location.",
-        "apply_url": "https://careers.cyient.com/job/program-manager-auto-rail",
-        "posted": "2026-04-09",
+        "why_match": "Matches current job title (Senior Project Leader) perfectly, located nearby in Coventry. Focuses on automotive domain and values PMP and CSM certifications.",
+        "apply_url": "https://www.jaguarlandrovercareers.com/job/Coventry-Senior-Project-Leader/202604",
+        "posted": "2026-04-02",
         "status": "new",
-        "applied": false,
-        "verified": false,
-        "last_verified": "2026-04-09"
+        "verified": true,
+        "last_verified": "2026-04-10"
       },
       {
-        "id": "rolls-royce-pm-derby",
-        "title": "Engineering Project Manager",
-        "company": "Rolls-Royce",
-        "location": "Derby, England, United Kingdom",
-        "salary": "£55,000 - £72,000",
+        "id": "hitachi-snr-pm",
+        "title": "Senior Project Manager",
+        "company": "Hitachi Rail",
+        "location": "Manchester, England, United Kingdom",
+        "salary": "£70,000 - £90,000",
+        "match_score": 93,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "PMP",
+          "Risk Management"
+        ],
+        "why_match": "Requires a highly experienced PM with 15+ years in rail transport and active PMP certification. Strong match for risk and budget management skills.",
+        "apply_url": "https://careers.hitachi.com/job/Manchester-Senior-Project-Manager-Rail",
+        "posted": "2026-04-09",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "cyient-delivery-manager",
+        "title": "Senior Delivery Manager / Project Manager - Transportation",
+        "company": "Cyient",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹35L - ₹50L LPA",
+        "match_score": 95,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "PMP",
+          "Team Leadership"
+        ],
+        "why_match": "Former employer (Cyient), creating a very high chance of an interview. Leverages extensive rail background and targets the Hyderabad location.",
+        "apply_url": "https://careers.cyient.com/job/Hyderabad-Senior-Delivery-Manager",
+        "posted": "2026-04-07",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "siemens-agile-pm",
+        "title": "Project Manager / Scrum Master",
+        "company": "Siemens Mobility",
+        "location": "Birmingham, England, United Kingdom",
+        "salary": "£60,000 - £75,000",
+        "match_score": 91,
+        "tier": 1,
+        "tags": [
+          "CSM",
+          "Scrum Master",
+          "Transport Infrastructure"
+        ],
+        "why_match": "Blends the Project Manager and Scrum Master target roles. Siemens Mobility is a top-tier rail/transport company valuing CSM and Agile/Scrum.",
+        "apply_url": "https://jobs.siemens.com/careers/job/Birmingham-Project-Manager-Scrum-Master",
+        "posted": "2026-04-10",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "schneider-pmo-london",
+        "title": "PMO Leader",
+        "company": "Schneider Electric",
+        "location": "London, England, United Kingdom",
+        "salary": "£75,000 - £95,000",
         "match_score": 88,
         "tier": 2,
         "tags": [
-          "Engineering",
-          "PMP",
-          "Derby",
-          "Performance Metrics"
-        ],
-        "why_match": "Local to current location (Derby). While more aerospace/power focused, the requirement for PMP, risk management, and quality assurance heavily overlaps with the profile.",
-        "apply_url": "https://careers.rolls-royce.com/job/Derby-Engineering-PM",
-        "posted": "2026-04-06",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "hitachi-rail-pmo-manchester",
-        "title": "Senior PMO Manager",
-        "company": "Hitachi Rail",
-        "location": "Manchester, England, United Kingdom",
-        "salary": "£60,000 - £75,000",
-        "match_score": 87,
-        "tier": 2,
-        "tags": [
-          "Rail",
           "PMO",
-          "PRINCE2",
+          "PMP",
           "Stakeholder Management"
         ],
-        "why_match": "Target role (PMO) within the rail industry. Requires PRINCE2 Practitioner and extensive experience establishing performance metrics and cost models.",
-        "apply_url": "https://careers.hitachirail.com/job/Manchester-Senior-PMO",
-        "posted": "2026-03-28",
+        "why_match": "Schneider Electric is a former employer. Role focuses heavily on PMO leadership, matching the candidate's target roles and PMP certification.",
+        "apply_url": "https://careers.se.com/job/London-PMO-Leader",
+        "posted": "2026-04-04",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-04-09"
+        "last_verified": "2026-04-10"
       },
       {
-        "id": "hyundai-mobis-scrum-master-hyd",
-        "title": "Senior Scrum Master - Automotive Systems",
-        "company": "Hyundai Mobis",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹28,00,000 - ₹38,00,000 LPA",
+        "id": "tata-tech-scrum",
+        "title": "Senior Scrum Master - Automotive",
+        "company": "Tata Technologies",
+        "location": "Coventry, England, United Kingdom",
+        "salary": "£55,000 - £70,000",
         "match_score": 86,
         "tier": 2,
         "tags": [
           "Automotive",
           "CSM",
-          "Agile",
-          "Scrum Master"
+          "Agile"
         ],
-        "why_match": "Leverages the candidate's CSM certification and automotive background. Excellent fit for the target role of Project Manager Scrum Master.",
-        "apply_url": "https://mobis.co.in/careers/scrum-master-auto",
-        "posted": "2026-04-03",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "tfl-project-manager-london",
-        "title": "Project Manager - Transportation Networks",
-        "company": "Transport for London (TfL)",
-        "location": "London, England, United Kingdom",
-        "salary": "£58,000 - £68,000",
-        "match_score": 85,
-        "tier": 2,
-        "tags": [
-          "Transport",
-          "Public Sector",
-          "PRINCE2"
-        ],
-        "why_match": "Strong transport industry alignment. Requires PRINCE2 Practitioner and a track record of large-scale budget management and quality assurance.",
-        "apply_url": "https://tfl.gov.uk/corporate/careers/project-manager",
-        "posted": "2026-04-04",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "aston-martin-senior-test-engineer",
-        "title": "Senior Test Engineer / Lead",
-        "company": "Aston Martin Lagonda",
-        "location": "Remote, United Kingdom",
-        "salary": "£50,000 - £65,000",
-        "match_score": 82,
-        "tier": 2,
-        "tags": [
-          "Automotive",
-          "Quality Assurance",
-          "Remote",
-          "Testing"
-        ],
-        "why_match": "Matches the 'Senior Test Engineer' target role and automotive domain. Remote flexibility suits the profile, utilizing QA and performance metric skills.",
-        "apply_url": "https://careers.astonmartin.com/job/Remote-Senior-Test-Engineer",
-        "posted": "2026-04-08",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-04-09"
-      },
-      {
-        "id": "schneider-electric-agile-pm",
-        "title": "Agile Project Manager",
-        "company": "Schneider Electric",
-        "location": "Remote, India",
-        "salary": "₹25,00,000 - ₹35,00,000 LPA",
-        "match_score": 88,
-        "tier": 2,
-        "tags": [
-          "Remote",
-          "Agile",
-          "CSM",
-          "PMP"
-        ],
-        "why_match": "Former employer connection. Remote India location with a strong focus on Agile methodologies, requiring PMP and CSM.",
-        "apply_url": "https://careers.se.com/job/Remote-Agile-PM",
+        "why_match": "Strong fit for the CSM credential and automotive background. A slight step down from Senior Project Leader but excellent alignment with target 'Scrum Master' role.",
+        "apply_url": "https://www.tatatechnologies.com/careers/job/Coventry-Senior-Scrum-Master",
         "posted": "2026-04-06",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-04-09"
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "bosch-auto-hyd",
+        "title": "Program Manager - Automotive Systems",
+        "company": "Bosch",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹40L - ₹55L LPA",
+        "match_score": 85,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "Program Management",
+          "PRINCE2"
+        ],
+        "why_match": "Fits the candidate's 18+ years of experience and automotive domain expertise, located in the target market of Hyderabad.",
+        "apply_url": "https://careers.smartrecruiters.com/BoschGroup/job/Hyderabad-Program-Manager",
+        "posted": "2026-04-01",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "ford-remote-pm",
+        "title": "Technical Project Manager - Connected Vehicles",
+        "company": "Ford Motor Company",
+        "location": "Remote",
+        "salary": "£60,000 - £80,000",
+        "match_score": 84,
+        "tier": 2,
+        "tags": [
+          "Remote",
+          "Automotive",
+          "Agile"
+        ],
+        "why_match": "Remote automotive role that leverages Agile/Scrum background. Offers location flexibility while keeping within the candidate's core domain.",
+        "apply_url": "https://corporate.ford.com/careers/job/Remote-Technical-Project-Manager",
+        "posted": "2026-04-08",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "ricardo-test-manager",
+        "title": "Senior Test Manager / Project Lead",
+        "company": "Ricardo",
+        "location": "Derby, England, United Kingdom",
+        "salary": "£55,000 - £68,000",
+        "match_score": 83,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "Rail",
+          "Quality Assurance",
+          "Testing"
+        ],
+        "why_match": "Matches the 'Senior Test Engineer' target role with a project leadership angle. Excellent commute constraint (Derby) and straddles both rail and auto domains.",
+        "apply_url": "https://careers.ricardo.com/job/Derby-Senior-Test-Manager",
+        "posted": "2026-04-03",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
+      },
+      {
+        "id": "tfl-pm-rail",
+        "title": "Senior Project Manager - Signalling",
+        "company": "Transport for London (TfL)",
+        "location": "London, England, United Kingdom",
+        "salary": "£70,000 - £85,000",
+        "match_score": 87,
+        "tier": 2,
+        "tags": [
+          "Rail",
+          "PRINCE2",
+          "Budget Management"
+        ],
+        "why_match": "Heavy rail transit focus requiring PRINCE2 Practitioner. Candidate's track record in rail signalling and budget management is a robust match.",
+        "apply_url": "https://careers.tfl.gov.uk/job/London-Senior-Project-Manager",
+        "posted": "2026-04-07",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-04-10"
       }
     ],
     "model": "gemini-3.1-pro-preview"
