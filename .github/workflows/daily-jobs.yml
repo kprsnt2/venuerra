@@ -1,18 +1,10 @@
 name: Daily Job Search
 
-# DISABLED — jobs pipeline is no longer active
-# To re-enable, uncomment the triggers below.
-# on:
-#   schedule:
-#     # 7:30 AM UTC = 1:00 PM IST
-#     - cron: '30 7 * * *'
-#   workflow_dispatch:  # Allow manual trigger
 on:
-  workflow_dispatch:
-    inputs:
-      confirm:
-        description: 'This workflow is disabled. Set to "yes" to run anyway.'
-        required: true
+  schedule:
+    # 7:30 AM UTC = 1:00 PM IST — runs daily
+    - cron: '30 7 * * *'
+  workflow_dispatch:  # Allow manual trigger
 
 permissions:
   contents: write
