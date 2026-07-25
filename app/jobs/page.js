@@ -6,7 +6,7 @@ import path from 'path';
 
 export const metadata = {
   title: 'Job Finder | Venu Gopal Erra',
-  description: 'AI-curated job opportunities for Project Manager roles in UK, Hyderabad, India, and Remote - powered by Claude & Gemini on Vertex AI',
+  description: 'AI-curated job opportunities posted in the last 24 hours for Project Manager roles - Remote, Hyderabad & India - powered by Claude & Gemini',
 };
 
 async function getJobData() {
@@ -34,7 +34,7 @@ export default async function JobsPage() {
           <p>
             Curated opportunities for Project Manager, PMO & Scrum Master roles
             <br />
-            <span style={{ color: 'var(--accent-2)' }}>UK · Hyderabad · Telangana · India · Remote</span>
+            <span style={{ color: 'var(--accent-2)' }}>Remote · Hyderabad · India</span>
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default async function JobsPage() {
       </main>
 
       <footer className="footer">
-        <p>Powered by Vertex AI · Claude Opus 4.6 & Gemini 3.1 Pro · Updated daily at 1:00 PM IST</p>
+        <p>Powered by Claude & Gemini AI · Jobs from last 24 hrs · Updated daily at 1:00 PM IST</p>
       </footer>
     </>
   );

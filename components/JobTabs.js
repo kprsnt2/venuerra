@@ -14,9 +14,8 @@ export default function JobTabs({ jobData }) {
     jobs.forEach((job) => {
       const loc = job.location || '';
       if (loc.toLowerCase().includes('remote')) locs.add('Remote');
-      if (loc.toLowerCase().includes('uk') || loc.toLowerCase().includes('london') || loc.toLowerCase().includes('england') || loc.toLowerCase().includes('derby') || loc.toLowerCase().includes('coventry')) locs.add('UK');
       if (loc.toLowerCase().includes('hyderabad') || loc.toLowerCase().includes('telangana')) locs.add('Hyderabad');
-      if (loc.toLowerCase().includes('india')) locs.add('India');
+      if (loc.toLowerCase().includes('india') || loc.toLowerCase().includes('bangalore') || loc.toLowerCase().includes('bengaluru') || loc.toLowerCase().includes('pune') || loc.toLowerCase().includes('mumbai') || loc.toLowerCase().includes('chennai') || loc.toLowerCase().includes('delhi') || loc.toLowerCase().includes('noida') || loc.toLowerCase().includes('gurgaon') || loc.toLowerCase().includes('gurugram')) locs.add('India');
     });
     return Array.from(locs);
   }, [jobs]);
@@ -26,9 +25,8 @@ export default function JobTabs({ jobData }) {
     return jobs.filter((job) => {
       const loc = (job.location || '').toLowerCase();
       switch (activeLocation) {
-        case 'UK': return loc.includes('uk') || loc.includes('london') || loc.includes('england') || loc.includes('derby') || loc.includes('coventry');
         case 'Hyderabad': return loc.includes('hyderabad') || loc.includes('telangana');
-        case 'India': return loc.includes('india') || loc.includes('hyderabad') || loc.includes('telangana');
+        case 'India': return loc.includes('india') || loc.includes('hyderabad') || loc.includes('telangana') || loc.includes('bangalore') || loc.includes('bengaluru') || loc.includes('pune') || loc.includes('mumbai') || loc.includes('chennai') || loc.includes('delhi') || loc.includes('noida') || loc.includes('gurgaon') || loc.includes('gurugram');
         case 'Remote': return loc.includes('remote');
         default: return true;
       }
@@ -82,7 +80,6 @@ export default function JobTabs({ jobData }) {
             onClick={() => setActiveLocation(loc)}
           >
             {loc === 'All' && '🌍 '}
-            {loc === 'UK' && '🇬🇧 '}
             {loc === 'Hyderabad' && '🇮🇳 '}
             {loc === 'India' && '🇮🇳 '}
             {loc === 'Remote' && '🏠 '}
@@ -99,6 +96,8 @@ export default function JobTabs({ jobData }) {
           Generated: {currentData.generated_date}
           {' · '}
           {jobs.length} total jobs found
+          {' · '}
+          <span style={{ color: 'var(--accent-2)' }}>Last 24 hrs only</span>
         </div>
       )}
 
@@ -114,7 +113,7 @@ export default function JobTabs({ jobData }) {
           filteredJobs.map((job, idx) => (
             <div key={job.id || idx} className="job-card" style={{ animationDelay: `${idx * 0.05}s` }}>
               <div className="job-info">
-                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', marginBottom: '0.3rem' }}>
+                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', marginBottom: '0.3rem', flexWrap: 'wrap' }}>
                   <span className={`tier-badge tier-${job.tier || 2}`}>
                     Tier {job.tier || 2}
                   </span>
@@ -122,6 +121,17 @@ export default function JobTabs({ jobData }) {
                     <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
                       📅 {job.posted}
                     </span>
+                  )}
+                  {job.source && (
+                    <span style={{ fontSize: '0.7rem', padding: '0.15rem 0.4rem', borderRadius: '4px', background: 'rgba(255,255,255,0.08)', color: 'var(--accent-light)' }}>
+                      via {job.source}
+                    </span>
+                  )}
+                  {job.verified === true && (
+                    <span style={{ fontSize: '0.7rem', color: '#4ade80' }} title="URL verified">✅</span>
+                  )}
+                  {job.verified === false && (
+                    <span style={{ fontSize: '0.7rem', color: '#fbbf24' }} title="URL could not be verified">⚠️</span>
                   )}
                 </div>
                 <h3>{job.title}</h3>
@@ -165,3 +175,4 @@ export default function JobTabs({ jobData }) {
     </>
   );
 }
+
