@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T10:55:45.356Z",
+  "lastUpdated": "2026-07-28T10:11:29.625Z",
   "claude": {
     "model": "claude-haiku-4-5",
     "generated_date": "N/A",
@@ -8,270 +8,261 @@
   },
   "gemini": {
     "month": "July 2026",
-    "generated_date": "2026-07-27",
+    "generated_date": "2026-07-28",
     "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
     "jobs": [
       {
-        "id": "alstom-pm-rail-blr",
-        "title": "Senior Project Manager - Signalling & Transport",
+        "id": "alstom-senior-project-manager",
+        "title": "Senior Project Manager - Rail Signaling",
         "company": "Alstom",
-        "location": "Remote, India",
+        "location": "Hyderabad, Telangana, India",
         "salary": "₹35-45 LPA",
         "match_score": 96,
         "tier": 1,
         "tags": [
           "Rail",
           "PMP",
-          "Project Management",
-          "Signalling"
+          "Signaling",
+          "Leadership"
         ],
-        "why_match": "Directly maps to rail transport domain and senior project management background. PMP certification is heavily preferred for this role.",
-        "apply_url": "https://careers.alstom.com/",
+        "why_match": "Directly aligns with 18+ years of experience in rail transport and project management, heavily utilizing PMP and budget management skills.",
+        "apply_url": "https://jobsearch.alstom.com/",
         "source": "Company",
-        "posted": "2026-07-27",
+        "posted": "2026-07-28",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-27"
+        "verified": true,
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "wabtec-scrum-master",
-        "title": "Project Manager / Scrum Master - Digital Rail",
+        "id": "wabtec-pm-railway",
+        "title": "Project Manager - Railway Systems",
         "company": "Wabtec Corporation",
         "location": "Remote, India",
         "salary": "₹30-40 LPA",
-        "match_score": 95,
-        "tier": 1,
-        "tags": [
-          "Scrum Master",
-          "CSM",
-          "Agile",
-          "Rail Transport"
-        ],
-        "why_match": "Strong overlap with candidate's CSM certification and previous specific experience as a Scrum Master in the rail (Bombardier/Cyient) domain.",
-        "apply_url": "https://careers.wabteccorp.com/",
-        "source": "Company",
-        "posted": "2026-07-27",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-27"
-      },
-      {
-        "id": "zf-group-sr-pm",
-        "title": "Senior Program Manager - Automotive Systems",
-        "company": "ZF Group",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹35-48 LPA",
         "match_score": 94,
         "tier": 1,
         "tags": [
-          "Automotive",
-          "PMP",
+          "Rail Transport",
           "PRINCE2",
-          "Stakeholder Management"
+          "Remote"
         ],
-        "why_match": "Perfect location match (Hyderabad). Excellent alignment with candidate's automotive sector experience and requirement for PMP/PRINCE2.",
-        "apply_url": "https://jobs.zf.com/",
+        "why_match": "Matches remote work preference and leverages deep rail transport infrastructure experience along with PRINCE2 practitioner certification.",
+        "apply_url": "https://careers.wabtec.com/",
         "source": "Company",
-        "posted": "2026-07-27",
+        "posted": "2026-07-28",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-27"
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "siemens-pmo-manager",
-        "title": "PMO Manager - Mobility & Rail Infrastructure",
-        "company": "Siemens Mobility",
-        "location": "Pune, Maharashtra, India",
-        "salary": "",
+        "id": "cyient-scrum-master-transportation",
+        "title": "Senior Scrum Master - Transportation",
+        "company": "Cyient",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹28-35 LPA",
         "match_score": 92,
         "tier": 1,
         "tags": [
-          "PMO",
-          "Rail",
-          "Budget Management",
-          "Team Leadership"
+          "Agile",
+          "CSM",
+          "Transportation"
         ],
-        "why_match": "Matches target role of PMO Manager. Requires heavy cost modelling, budget management, and rail domain knowledge.",
-        "apply_url": "https://jobs.siemens.com/careers",
-        "source": "Company",
-        "posted": "2026-07-26",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-27"
-      },
-      {
-        "id": "cyient-sr-project-leader",
-        "title": "Senior Project Leader - Transportation",
-        "company": "Cyient",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹28-38 LPA",
-        "match_score": 98,
-        "tier": 1,
-        "tags": [
-          "Automotive",
-          "Rail Transport",
-          "Leadership",
-          "Agile"
-        ],
-        "why_match": "Candidate has strong past tenure at Cyient. Matches exact current job title (Senior Project Leader) and preferred location.",
+        "why_match": "Candidate has prior successful tenure at Cyient as a Scrum Master; this senior role is a perfect match for CSM certification and transportation domain expertise.",
         "apply_url": "https://careers.cyient.com/",
         "source": "Company",
         "posted": "2026-07-27",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-27"
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "hitachi-eng-pm",
-        "title": "Engineering Project Manager (Rail/Signalling)",
-        "company": "Hitachi Rail",
+        "id": "tata-tech-program-manager",
+        "title": "Program Manager - Automotive Engineering",
+        "company": "Tata Technologies",
+        "location": "Pune, Maharashtra, India",
+        "salary": "₹35-42 LPA",
+        "match_score": 89,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "PMO",
+          "PMP"
+        ],
+        "why_match": "Capitalizes on extensive automotive domain knowledge and requires senior-level PMO experience for cost modeling and stakeholder management.",
+        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "source": "Company",
+        "posted": "2026-07-28",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-07-28"
+      },
+      {
+        "id": "siemens-mobility-pmo",
+        "title": "PMO Leader - Rolling Stock",
+        "company": "Siemens Mobility",
         "location": "Remote, India",
-        "salary": "",
-        "match_score": 90,
+        "salary": "₹38-48 LPA",
+        "match_score": 95,
         "tier": 1,
         "tags": [
           "Rail",
-          "PRINCE2",
-          "Performance Metrics",
-          "Risk Management"
+          "Rolling Stock",
+          "PMO"
         ],
-        "why_match": "Ideal remote role within the rail domain. Emphasizes PRINCE2 practitioner certification for global project delivery.",
-        "apply_url": "https://careers.hitachi.com/",
-        "source": "Company",
-        "posted": "2026-07-26",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-27"
-      },
-      {
-        "id": "tata-tech-program-mgr",
-        "title": "Program Manager - Automotive Engineering",
-        "company": "Tata Technologies",
-        "location": "Remote, India",
-        "salary": "₹32-42 LPA",
-        "match_score": 88,
-        "tier": 2,
-        "tags": [
-          "Automotive",
-          "Program Management",
-          "PMP",
-          "Quality Assurance"
-        ],
-        "why_match": "Aligns with candidate's 18+ years of experience and automotive domain skills. Remote location offers great flexibility.",
-        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "why_match": "Highly relevant Rolling Stock/Rail Transport domain alignment with requirement for a PMO Leader possessing 15+ years experience and PRINCE2.",
+        "apply_url": "https://jobs.siemens.com/careers",
         "source": "Company",
         "posted": "2026-07-27",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-27"
+        "verified": true,
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "bosch-pm-embedded",
-        "title": "Project Manager - Automotive Systems",
-        "company": "Bosch",
+        "id": "kpit-senior-pm",
+        "title": "Senior Project Manager - Automotive Software",
+        "company": "KPIT Technologies",
         "location": "Bangalore, Karnataka, India",
-        "salary": "",
+        "salary": "₹30-38 LPA",
         "match_score": 85,
         "tier": 2,
         "tags": [
           "Automotive",
-          "Project Management",
-          "Scrum"
+          "Software",
+          "PMP"
         ],
-        "why_match": "Requires a seasoned PM in the automotive space. Candidate's CSM and PMP combo is highly desirable here.",
-        "apply_url": "https://careers.smartrecruiters.com/BoschGroup",
+        "why_match": "Good match for automotive project management skills, though leans slightly more into software architecture. PMP and Agile/Scrum background ensures a strong fit.",
+        "apply_url": "https://www.kpit.com/careers/",
         "source": "Company",
-        "posted": "2026-07-26",
+        "posted": "2026-07-28",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-07-27"
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "mobis-agile-pm",
-        "title": "Agile Project Manager",
-        "company": "Hyundai Mobis",
+        "id": "ltts-project-manager",
+        "title": "Project Manager (Transportation & Rail)",
+        "company": "L&T Technology Services",
         "location": "Hyderabad, Telangana, India",
         "salary": "₹25-35 LPA",
-        "match_score": 89,
+        "match_score": 91,
+        "tier": 1,
+        "tags": [
+          "Transportation",
+          "Rail",
+          "Risk Management"
+        ],
+        "why_match": "Located in preferred location (Hyderabad) and specifically targets Rail/Transportation domains requiring strong Risk and Budget Management.",
+        "apply_url": "https://www.ltts.com/careers",
+        "source": "Company",
+        "posted": "2026-07-28",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-28"
+      },
+      {
+        "id": "zf-group-program-manager",
+        "title": "Senior Program Manager",
+        "company": "ZF Group",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "",
+        "match_score": 88,
         "tier": 2,
         "tags": [
-          "Agile",
-          "Scrum Master",
           "Automotive",
-          "Team Leadership"
+          "PMP",
+          "Stakeholder Management"
         ],
-        "why_match": "Perfect location match. Leverages Scrum Master experience and automotive industry background.",
-        "apply_url": "https://mobis.co.in/career/",
+        "why_match": "ZF is a major automotive supplier. The role requires a seasoned project leader (15+ years) in Hyderabad with PMP credentials.",
+        "apply_url": "https://jobs.zf.com/",
         "source": "Company",
         "posted": "2026-07-27",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-27"
+        "verified": true,
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "continental-sr-scrum",
-        "title": "Senior Scrum Master - Automotive",
-        "company": "Continental",
-        "location": "Bangalore, Karnataka, India",
+        "id": "hitachi-rail-project-director",
+        "title": "Project Director - Rail Delivery",
+        "company": "Hitachi Rail",
+        "location": "Remote, India",
+        "salary": "₹45-60 LPA",
+        "match_score": 97,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "Director",
+          "Remote"
+        ],
+        "why_match": "Next logical career step (18+ years experience). Requires deep Rail Transport background, PMP/PRINCE2, and large-scale budget management capability.",
+        "apply_url": "https://careers.hitachi.com/",
+        "source": "Company",
+        "posted": "2026-07-28",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-07-28"
+      },
+      {
+        "id": "cognizant-delivery-director",
+        "title": "Delivery Director / Senior Project Manager (IoT & Engineering)",
+        "company": "Cognizant",
+        "location": "Hyderabad, Telangana, India",
         "salary": "",
         "match_score": 84,
         "tier": 2,
         "tags": [
+          "Engineering",
           "Scrum Master",
-          "CSM",
-          "Automotive"
+          "Leadership"
         ],
-        "why_match": "Strong match for target role 'Project Manager Scrum Master'. Requires official CSM certification which the candidate possesses.",
-        "apply_url": "https://www.continental.com/en/career/",
-        "source": "Company",
-        "posted": "2026-07-26",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-27"
-      },
-      {
-        "id": "ltts-pmo-lead",
-        "title": "PMO Lead - Transportation",
-        "company": "L&T Technology Services",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹30-45 LPA",
-        "match_score": 91,
-        "tier": 1,
-        "tags": [
-          "PMO",
-          "Rail",
-          "Automotive",
-          "Cost Modelling"
-        ],
-        "why_match": "Combines both rail and automotive domain knowledge. Based in target location (Hyderabad) and fits target PMO role.",
-        "apply_url": "https://ltts.com/careers",
+        "why_match": "Candidate previously worked at Cognizant/Schneider Electric. This senior delivery role values CSM, PMP, and engineering project leadership.",
+        "apply_url": "https://careers.cognizant.com/global/en",
         "source": "Company",
         "posted": "2026-07-27",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-07-27"
+        "last_verified": "2026-07-28"
       },
       {
-        "id": "knorr-bremse-tech-pm",
-        "title": "Technical Project Manager (Rail Vehicle Systems)",
-        "company": "Knorr-Bremse",
-        "location": "Pune, Maharashtra, India",
-        "salary": "",
+        "id": "hyundai-rd-pm",
+        "title": "Project Manager - R&D",
+        "company": "Hyundai Motor India Engineering",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹25-32 LPA",
         "match_score": 86,
         "tier": 2,
         "tags": [
-          "Rail",
-          "PMP",
-          "Project Management",
-          "Stakeholder Management"
+          "Automotive",
+          "R&D",
+          "Cost Modelling"
         ],
-        "why_match": "Highly relevant rail vehicle systems domain. Values 15+ years experience and formal PM certifications like PRINCE2 and PMP.",
-        "apply_url": "https://www.knorr-bremse.com/en/careers/",
+        "why_match": "Strong geographical match (Hyderabad) with direct alignment to automotive product development, requiring Quality Assurance and Performance Metrics tracking.",
+        "apply_url": "https://hmie.hyundai.co.in/careers",
         "source": "Company",
-        "posted": "2026-07-26",
+        "posted": "2026-07-28",
         "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-27"
+        "verified": false,
+        "last_verified": "2026-07-28"
+      },
+      {
+        "id": "mercedes-benz-program-manager",
+        "title": "Senior Program Manager - Automotive Systems",
+        "company": "Mercedes-Benz Research and Development India",
+        "location": "Bangalore, Karnataka, India",
+        "salary": "₹40-50 LPA",
+        "match_score": 87,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "PRINCE2",
+          "Program Management"
+        ],
+        "why_match": "Excellent domain fit for automotive engineering. Values 15+ years experience and PRINCE2 Practitioner certification for overseeing complex automotive systems.",
+        "apply_url": "https://group.mercedes-benz.com/careers/",
+        "source": "Company",
+        "posted": "2026-07-27",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-07-28"
       }
     ],
     "model": "gemini-3.1-pro-preview"
