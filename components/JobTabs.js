@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react';
 
 export default function JobTabs({ jobData }) {
-  const [activeTab, setActiveTab] = useState('claude');
+  const [activeTab, setActiveTab] = useState('gemini');
   const [activeLocation, setActiveLocation] = useState('All');
 
   const currentData = jobData?.[activeTab];
@@ -56,18 +56,18 @@ export default function JobTabs({ jobData }) {
       {/* Tab Switcher */}
       <div className="tabs-container" id="ai-tabs">
         <button
-          className={`tab-btn ${activeTab === 'claude' ? 'active' : ''}`}
-          onClick={() => setActiveTab('claude')}
-          id="tab-claude"
-        >
-          🟣 Claude <span className="tab-model-tag">Haiku 4.5</span>
-        </button>
-        <button
           className={`tab-btn ${activeTab === 'gemini' ? 'active' : ''}`}
           onClick={() => setActiveTab('gemini')}
           id="tab-gemini"
         >
           🔵 Gemini <span className="tab-model-tag">Flash Latest</span>
+        </button>
+        <button
+          className={`tab-btn ${activeTab === 'careerops' ? 'active' : ''}`}
+          onClick={() => setActiveTab('careerops')}
+          id="tab-careerops"
+        >
+          ⚡ Career Ops <span className="tab-model-tag">ATS Direct</span>
         </button>
       </div>
 
