@@ -63,6 +63,13 @@ export default function JobTabs({ jobData }) {
           🔵 Gemini <span className="tab-model-tag">Flash Latest</span>
         </button>
         <button
+          className={`tab-btn ${activeTab === 'chatgpt' ? 'active' : ''}`}
+          onClick={() => setActiveTab('chatgpt')}
+          id="tab-chatgpt"
+        >
+          🟢 ChatGPT <span className="tab-model-tag">GPT-4o Mini</span>
+        </button>
+        <button
           className={`tab-btn ${activeTab === 'careerops' ? 'active' : ''}`}
           onClick={() => setActiveTab('careerops')}
           id="tab-careerops"
@@ -95,9 +102,12 @@ export default function JobTabs({ jobData }) {
           {' · '}
           Generated: {currentData.generated_date}
           {' · '}
-          {jobs.length} total jobs found
-          {' · '}
-          <span style={{ color: 'var(--accent-2)' }}>Last 24 hrs only</span>
+          {jobs.length} total active jobs
+          {jobs.some(j => j.is_repeat) && (
+            <span style={{ marginLeft: '0.4rem', color: 'var(--text-muted)' }}>
+              ({jobs.filter(j => !j.is_repeat).length} new today · {jobs.filter(j => j.is_repeat).length} active from previous days)
+            </span>
+          )}
         </div>
       )}
 
@@ -117,9 +127,13 @@ export default function JobTabs({ jobData }) {
                   <span className={`tier-badge tier-${job.tier || 2}`}>
                     Tier {job.tier || 2}
                   </span>
-                  {job.posted && (
-                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                      📅 {job.posted}
+                  {job.is_repeat ? (
+                    <span style={{ fontSize: '0.75rem', padding: '0.15rem 0.45rem', borderRadius: '4px', background: 'rgba(255,255,255,0.06)', color: 'var(--text-muted)' }} title="Discovered on previous run">
+                      🔄 Listed on {job.posted}
+                    </span>
+                  ) : (
+                    <span style={{ fontSize: '0.75rem', padding: '0.15rem 0.45rem', borderRadius: '4px', background: 'rgba(52, 211, 153, 0.15)', color: '#34d399', fontWeight: 600 }} title="New posting discovered today">
+                      🔥 New ({job.posted || 'Today'})
                     </span>
                   )}
                   {job.source && (
