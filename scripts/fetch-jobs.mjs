@@ -26,10 +26,10 @@ import { buildJobSearchPrompt } from '../lib/job-search.js';
 
 // Config
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-haiku-4-5-20250315';
-const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-3.1-pro';
+const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-2.5-flash';
 
 /**
- * Generate job listings using Gemini via Google GenAI API key
+ * Generate job listings using Gemini via Google GenAI API key with Search Grounding
  */
 async function generateWithGemini(prompt) {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -42,11 +42,14 @@ async function generateWithGemini(prompt) {
     const { GoogleGenAI } = await import('@google/genai');
     const ai = new GoogleGenAI({ apiKey });
 
-    console.log(`  🔵 Calling Gemini (${GEMINI_MODEL}) ...`);
+    console.log(`  🔵 Calling Gemini (${GEMINI_MODEL}) with Google Search Grounding ...`);
 
     const response = await ai.models.generateContent({
       model: GEMINI_MODEL,
       contents: prompt,
+      config: {
+        tools: [{ googleSearch: {} }],
+      },
     });
 
     let text = response.text.trim();
@@ -154,7 +157,7 @@ async function verifyJobs(jobs) {
 
   for (const job of jobs) {
     const url = job.apply_url || '';
-    if (!url || url === '#') {
+    if (!url || url === '#' || url.includes('actual-verified-job-posting-url')) {
       job.verified = false;
       failed++;
       continue;
@@ -164,7 +167,11 @@ async function verifyJobs(jobs) {
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
       const resp = await fetch(url, {
-        method: 'HEAD',
+        method: 'GET',
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        },
         signal: controller.signal,
         redirect: 'follow',
       });
