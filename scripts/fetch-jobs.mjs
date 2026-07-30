@@ -26,7 +26,7 @@ import { buildJobSearchPrompt } from '../lib/job-search.js';
 
 // Config
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL_ID || 'claude-haiku-4-5-20250315';
-const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-2.5-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-flash-latest';
 
 /**
  * Generate job listings using Gemini via Google GenAI API key with Search Grounding

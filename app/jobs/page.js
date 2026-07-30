@@ -44,7 +44,7 @@ export default async function JobsPage() {
           <div className="no-jobs">
             <p style={{ fontSize: '3rem', marginBottom: '1rem' }}>⚙️</p>
             <h3>Job data not yet generated</h3>
-            <p>The AI job search runs daily at 1:00 PM IST.</p>
+            <p>The AI job search runs daily at 7:00 AM IST.</p>
             <p style={{ marginTop: '0.5rem', fontSize: '0.85rem', color: 'var(--text-muted)' }}>
               Configure your Vertex AI credentials and trigger the GitHub Action to get started.
             </p>
@@ -53,7 +53,7 @@ export default async function JobsPage() {
       </main>
 
       <footer className="footer">
-        <p>Powered by Claude & Gemini AI · Jobs from last 24 hrs · Updated daily at 1:00 PM IST</p>
+        <p>Powered by Claude & Gemini AI · Jobs from last 24 hrs · Updated daily at 7:00 AM IST</p>
       </footer>
     </>
   );

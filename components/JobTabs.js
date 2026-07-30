@@ -67,7 +67,7 @@ export default function JobTabs({ jobData }) {
           onClick={() => setActiveTab('gemini')}
           id="tab-gemini"
         >
-          🔵 Gemini <span className="tab-model-tag">2.5 Flash</span>
+          🔵 Gemini <span className="tab-model-tag">Flash Latest</span>
         </button>
       </div>
 
