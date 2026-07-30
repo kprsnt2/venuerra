@@ -1,10 +1,230 @@
 {
-  "lastUpdated": "2026-07-30T01:06:09.377Z",
+  "lastUpdated": "2026-07-30T04:05:21.979Z",
   "gemini": {
-    "model": "gemini-flash-latest",
-    "generated_date": "N/A",
-    "profile_summary": "",
-    "jobs": []
+    "month": "July 2026",
+    "generated_date": "2026-07-30",
+    "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
+    "jobs": [
+      {
+        "id": "alstom-project-manager-bengaluru",
+        "title": "Project Manager",
+        "company": "Alstom",
+        "location": "Bengaluru, Karnataka, India",
+        "salary": "",
+        "match_score": 95,
+        "tier": 1,
+        "tags": [
+          "Rail Transport",
+          "Project Management",
+          "PMP"
+        ],
+        "why_match": "Candidate has 18+ years of PM experience with profound expertise in Rail Transport. Strong alignment with Alstom's core mobility and rail infrastructure projects.",
+        "apply_url": "https://jobs.alstom.com/",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "wabtec-staff-technical-project-manager",
+        "title": "Staff Technical Project Manager",
+        "company": "Wabtec Corporation",
+        "location": "Bengaluru, Karnataka, India",
+        "salary": "",
+        "match_score": 92,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "Freight",
+          "Project Management",
+          "Transportation"
+        ],
+        "why_match": "Wabtec is a key player in Rail/Freight. Candidate's extensive rail transport project leadership experience, coupled with PMP and Agile skills, makes this a prime fit.",
+        "apply_url": "https://careers.wabtec.com/",
+        "source": "Company",
+        "posted": "2026-07-29",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "siemens-commercial-project-manager",
+        "title": "Commercial Project Manager",
+        "company": "Siemens Mobility",
+        "location": "Mumbai, Maharashtra, India",
+        "salary": "",
+        "match_score": 88,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "Mobility",
+          "Budget Management",
+          "Cost Modelling"
+        ],
+        "why_match": "Direct match for the Rail Mobility domain. Fully leverages the candidate's core competencies in budget management and cost modelling.",
+        "apply_url": "https://jobs.siemens.com/careers/job?reqId=515468",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "hitachi-energy-senior-project-manager",
+        "title": "Senior Project Manager",
+        "company": "Hitachi Energy",
+        "location": "Remote, Karnataka, India",
+        "salary": "",
+        "match_score": 96,
+        "tier": 1,
+        "tags": [
+          "Remote",
+          "Rail",
+          "Senior Project Leader",
+          "PRINCE2"
+        ],
+        "why_match": "Highly preferred Remote location. The Senior PM tier perfectly aligns with the candidate's 18+ years of experience and track record in Rail / infrastructure.",
+        "apply_url": "https://www.hitachienergy.com/careers",
+        "source": "Company",
+        "posted": "2026-07-29",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "bosch-agile-coach-scrum-master",
+        "title": "Agile Coach / Scrum Master / Agile Project Manager",
+        "company": "Bosch Group",
+        "location": "Bengaluru, Karnataka, India",
+        "salary": "",
+        "match_score": 98,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "Scrum Master",
+          "Agile",
+          "CSM"
+        ],
+        "why_match": "Candidate is a Certified Scrum Master (CSM) with 18+ years of experience including significant tenure in the Automotive domain, matching perfectly.",
+        "apply_url": "https://careers.smartrecruiters.com/BoschGroup/india",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "cyient-technical-project-manager",
+        "title": "Technical Project Manager",
+        "company": "Cyient",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹16-23 LPA",
+        "match_score": 90,
+        "tier": 1,
+        "tags": [
+          "Project Management",
+          "Hyderabad",
+          "Engineering Services",
+          "PMP"
+        ],
+        "why_match": "Cyient is a past employer of the candidate, maximizing the chance of a strong cultural and technical fit. Also aligns with the top geographical priority (Hyderabad).",
+        "apply_url": "https://careers.cyient.com/",
+        "source": "Company",
+        "posted": "2026-07-29",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "siemens-project-manager-internal",
+        "title": "Project Manager",
+        "company": "Siemens Mobility",
+        "location": "Nashik, Maharashtra, India",
+        "salary": "",
+        "match_score": 85,
+        "tier": 2,
+        "tags": [
+          "Rail Automation",
+          "Stakeholder Management",
+          "PMP"
+        ],
+        "why_match": "Siemens Mobility projects closely mirror the candidate's past work in transit systems and stakeholder management. Strong synergy with PMP credentials.",
+        "apply_url": "https://jobs.siemens.com/careers/job?reqId=509010",
+        "source": "Company",
+        "posted": "2026-07-29",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "tata-elxsi-project-manager-auto",
+        "title": "Project Manager",
+        "company": "Tata Elxsi",
+        "location": "Pune, Maharashtra, India",
+        "salary": "",
+        "match_score": 89,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "Connected Vehicles",
+          "Agile",
+          "PMP"
+        ],
+        "why_match": "Explicitly requires PMP/PRINCE2 certifications, Automotive domain knowledge, and Agile/Scrum dev management—all of which the candidate possesses.",
+        "apply_url": "https://tataelxsi.com/careers",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "siemens-requirement-management-professional",
+        "title": "Requirement Management Professional (Project Management)",
+        "company": "Siemens Mobility",
+        "location": "Gurugram, Haryana, India",
+        "salary": "",
+        "match_score": 80,
+        "tier": 2,
+        "tags": [
+          "Rail",
+          "Project Management",
+          "Quality Assurance",
+          "Requirements"
+        ],
+        "why_match": "Good overlap with candidate's QA and stakeholder management skills in Rail engineering projects.",
+        "apply_url": "https://jobs.siemens.com/careers/job?reqId=505017",
+        "source": "Company",
+        "posted": "2026-07-29",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      },
+      {
+        "id": "tata-tech-linux-automation-pm",
+        "title": "Linux Automation Project Manager",
+        "company": "Tata Technologies",
+        "location": "Pune, Maharashtra, India",
+        "salary": "",
+        "match_score": 82,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "Automation",
+          "Project Management",
+          "Test Engineer"
+        ],
+        "why_match": "Candidate has a strong Automotive sector background; PM roles at Tata Technologies leverage cross-functional validation and testing leadership.",
+        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-30"
+      }
+    ],
+    "model": "gemini-3.1-pro-preview"
   },
   "careerops": {
     "model": "Career Ops (ATS Direct)",
@@ -30,7 +250,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8603824002",
@@ -51,7 +272,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8615946002",
@@ -72,7 +294,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8592950002",
@@ -93,7 +316,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8607714002",
@@ -114,7 +338,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8592891002",
@@ -135,7 +360,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8481197002",
@@ -156,7 +382,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8478405002",
@@ -177,7 +404,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8586632002",
@@ -198,7 +426,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8617538002",
@@ -219,7 +448,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8643154002",
@@ -240,7 +470,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8617252002",
@@ -261,7 +492,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8626290002",
@@ -282,7 +514,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8622433002",
@@ -303,7 +536,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-gh-gitlab-8584282002",
@@ -324,7 +558,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-alstom-pmo-hyd",
@@ -346,7 +581,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-cyient-sr-pm",
@@ -368,7 +604,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-schneider-pm-scrum",
@@ -390,7 +627,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-ltts-spl-remote",
@@ -412,7 +650,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       },
       {
         "id": "ops-zf-agile-pm-hyd",
@@ -434,7 +673,8 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-30",
+        "applied": false
       }
     ]
   }
