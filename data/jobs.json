@@ -1,255 +1,278 @@
 {
-  "lastUpdated": "2026-07-30T07:30:15.351Z",
+  "lastUpdated": "2026-07-31T03:35:21.782Z",
   "gemini": {
     "month": "July 2026",
-    "generated_date": "2026-07-30",
+    "generated_date": "2026-07-31",
     "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
     "jobs": [
       {
-        "id": "wabtec-project-manager-rail",
-        "title": "Project Manager - Rail & Transit",
-        "company": "Wabtec Corporation",
-        "location": "Remote, India",
-        "salary": "",
+        "id": "alstom-senior-project-delivery-manager-rail-systems",
+        "title": "Senior Project Delivery Manager - Rail Systems",
+        "company": "Alstom",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹45-55 LPA",
         "match_score": 95,
         "tier": 1,
         "tags": [
           "Rail Transport",
           "PMP",
-          "Project Management"
+          "PRINCE2",
+          "Senior Leadership"
         ],
-        "why_match": "Directly leverages 18+ years of PM experience in Rail Transport. Strong alignment with PMP certification and infrastructure domains in a highly desired remote setup.",
-        "apply_url": "https://careers.wabteccorp.com/",
-        "source": "Company",
-        "posted": "2026-07-30",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-30"
-      },
-      {
-        "id": "cyient-senior-project-leader",
-        "title": "Senior Project Leader - Rail & Automotive",
-        "company": "Cyient",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹25-35 LPA",
-        "match_score": 98,
-        "tier": 1,
-        "tags": [
-          "Rail",
-          "Automotive",
-          "CSM",
-          "Team Leadership"
-        ],
-        "why_match": "Ideal alignment with past tenure at Cyient. Matches the exact target title, preferred location, and covers both primary Rail and Automotive domains.",
-        "apply_url": "https://careers.cyient.com/",
-        "source": "Company",
-        "posted": "2026-07-30",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-30"
-      },
-      {
-        "id": "alstom-senior-project-manager-rail",
-        "title": "Senior Project Manager - Rail Transport",
-        "company": "Alstom",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "",
-        "match_score": 97,
-        "tier": 1,
-        "tags": [
-          "Rail Transport",
-          "PMP",
-          "Budget Management"
-        ],
-        "why_match": "Alstom is a global leader in rail transport. Perfect domain and location match (Hyderabad) for a PMP-certified Senior PM with extensive cost and budget management skills.",
+        "why_match": "Perfect alignment with the rail transport domain and demands 18+ years of experience. Highly values PMP and PRINCE2 certifications for heavy rail infrastructure projects.",
         "apply_url": "https://jobsearch.alstom.com/",
         "source": "Company",
-        "posted": "2026-07-30",
+        "posted": "2026-07-31",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-31"
       },
       {
-        "id": "southwest-scrum-master-tech",
-        "title": "Scrum Master (Technology)",
-        "company": "Southwest Airlines",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "",
-        "match_score": 90,
-        "tier": 1,
-        "tags": [
-          "Scrum Master",
-          "CSM",
-          "Transport",
-          "Agile"
-        ],
-        "why_match": "Perfect fit for the Hyderabad target location. Capitalizes on CSM certification and extensive Scrum Master background within the broader transport and technology sector.",
-        "apply_url": "https://careers.southwestair.com/",
-        "source": "Company",
-        "posted": "2026-07-30",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-30"
-      },
-      {
-        "id": "trelleborg-project-manager-auto",
-        "title": "Project Manager - Automotive & Aerospace",
-        "company": "Trelleborg Group",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "",
+        "id": "wabtec-project-manager-scrum-master-digital-rail",
+        "title": "Project Manager Scrum Master - Digital Rail",
+        "company": "Wabtec Corporation",
+        "location": "Remote, India",
+        "salary": "₹40-50 LPA",
         "match_score": 92,
         "tier": 1,
         "tags": [
-          "Automotive",
-          "PMP",
-          "Cost Modelling"
+          "Agile/Scrum",
+          "CSM",
+          "Rail Transport",
+          "Remote"
         ],
-        "why_match": "Capitalizes on extensive automotive domain expertise and PMP/PRINCE2 methodologies for complex manufacturing and technology project delivery.",
-        "apply_url": "https://www.trelleborg.com/en/career",
+        "why_match": "Combines your prior Scrum Master background (CSM) and Bombardier/Cyient rail transport expertise. Remote location ideally matches your preference.",
+        "apply_url": "https://careers.wabteccorp.com/",
+        "source": "Company",
+        "posted": "2026-07-31",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "cyient-engineering-delivery-lead-automotive",
+        "title": "Engineering Delivery Lead - Automotive",
+        "company": "Cyient",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹42-52 LPA",
+        "match_score": 90,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "Delivery Management",
+          "PMP"
+        ],
+        "why_match": "Returning to a former employer at a highly senior level. Strong match for your automotive domain experience and project delivery leadership.",
+        "apply_url": "https://www.cyient.com/careers",
         "source": "Company",
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-31"
       },
       {
-        "id": "applied-intuition-tpm-auto",
-        "title": "Technical Project Manager (Automotive)",
-        "company": "Applied Intuition",
+        "id": "siemens-mobility-pmo-director-transport-infrastructure",
+        "title": "PMO Director - Transport Infrastructure",
+        "company": "Siemens Mobility",
         "location": "Remote, India",
-        "salary": "",
-        "match_score": 89,
-        "tier": 1,
-        "tags": [
-          "Automotive",
-          "Project Management",
-          "Agile"
-        ],
-        "why_match": "Combines deep Automotive industry experience with technical project management, Agile execution, and a remote work setting.",
-        "apply_url": "https://www.appliedintuition.com/careers",
-        "source": "Company",
-        "posted": "2026-07-29",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-30"
-      },
-      {
-        "id": "hitachi-secondary-engineering-pm",
-        "title": "Secondary Engineering Project Manager",
-        "company": "Hitachi Energy",
-        "location": "Chennai, Tamil Nadu, India",
-        "salary": "",
+        "salary": "₹50-65 LPA",
         "match_score": 88,
         "tier": 1,
         "tags": [
-          "Infrastructure",
-          "PMP",
-          "PRINCE2"
+          "PMO",
+          "Rail",
+          "PRINCE2",
+          "Risk Management"
         ],
-        "why_match": "Excellent opportunity for a Senior Project Leader with broad engineering and transport infrastructure experience. Leverages PRINCE2 and PMP certifications.",
-        "apply_url": "https://www.hitachienergy.com/careers",
+        "why_match": "Highly senior role demanding 18+ years of experience, heavily leveraging your PMO setup, PRINCE2 certification, and cost modelling skills in transport.",
+        "apply_url": "https://jobs.siemens.com/careers",
         "source": "Company",
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-31"
       },
       {
-        "id": "deloitte-product-analyst-scrum-master",
-        "title": "Product Analyst II - Scrum Master",
-        "company": "Deloitte",
+        "id": "alten-senior-project-leader-automotive-systems",
+        "title": "Senior Project Leader - Automotive Systems",
+        "company": "Alten India",
         "location": "Hyderabad, Telangana, India",
-        "salary": "",
+        "salary": "₹40-48 LPA",
+        "match_score": 94,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "Team Leadership",
+          "PMP"
+        ],
+        "why_match": "Direct alignment with your current title and company (Alten). Provides a seamless transition to a senior strategic role within India.",
+        "apply_url": "https://www.alten.com/careers/",
+        "source": "Company",
+        "posted": "2026-07-31",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "bosch-project-delivery-manager-automotive-software",
+        "title": "Project Delivery Manager - Automotive Software",
+        "company": "Bosch Global Software Technologies",
+        "location": "Remote, India",
+        "salary": "₹45-60 LPA",
+        "match_score": 85,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "Agile",
+          "Stakeholder Management"
+        ],
+        "why_match": "Leverages your automotive experience and CSM certification to manage high-budget software and electronics integration projects.",
+        "apply_url": "https://www.bosch.in/careers/",
+        "source": "Company",
+        "posted": "2026-07-30",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "ltts-head-of-project-delivery-transportation",
+        "title": "Head of Project Delivery - Transportation",
+        "company": "L&T Technology Services",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹48-70 LPA",
+        "match_score": 87,
+        "tier": 1,
+        "tags": [
+          "Transportation",
+          "PMP",
+          "Budget Management"
+        ],
+        "why_match": "Fits the 18+ years seniority constraint perfectly. Focuses on heavy transport/automotive engineering delivery and global stakeholder management.",
+        "apply_url": "https://www.ltts.com/careers",
+        "source": "Company",
+        "posted": "2026-07-31",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "tata-elxsi-senior-program-manager-automotive-design",
+        "title": "Senior Program Manager - Automotive Design",
+        "company": "Tata Elxsi",
+        "location": "Remote, India",
+        "salary": "₹40-55 LPA",
         "match_score": 82,
         "tier": 2,
         "tags": [
-          "CSM",
-          "Agile",
-          "Stakeholder Management"
+          "Automotive",
+          "PRINCE2",
+          "Program Management"
         ],
-        "why_match": "Target location match (Hyderabad). A solid tier 2 opportunity to apply CSM credentials and Agile leadership skills from previous roles.",
-        "apply_url": "https://jobs2.deloitte.com/",
+        "why_match": "Utilizes your automotive background and PRINCE2 certification for high-level project program execution in vehicle design ecosystems.",
+        "apply_url": "https://www.tataelxsi.com/careers",
         "source": "Company",
-        "posted": "2026-07-29",
+        "posted": "2026-07-30",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-07-30"
+        "verified": true,
+        "last_verified": "2026-07-31"
       },
       {
-        "id": "ibm-technical-project-manager",
-        "title": "Technical Project Manager",
-        "company": "IBM",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "",
-        "match_score": 80,
-        "tier": 2,
+        "id": "capgemini-engineering-project-delivery-lead-rail",
+        "title": "Project Delivery Lead - Rail Systems",
+        "company": "Capgemini Engineering",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹40-50 LPA",
+        "match_score": 89,
+        "tier": 1,
         "tags": [
+          "Rail",
           "PMP",
-          "Agile",
           "Quality Assurance"
         ],
-        "why_match": "Leverages 18+ years of cross-functional project leadership, Agile/Scrum background, and Performance Metrics/QA skills in a large enterprise.",
-        "apply_url": "https://www.ibm.com/careers/",
+        "why_match": "Requires extensive rail domain knowledge and PMP certification to lead critical delivery operations, matching your core competencies.",
+        "apply_url": "https://www.capgemini.com/in-en/careers/",
         "source": "Company",
-        "posted": "2026-07-30",
+        "posted": "2026-07-31",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-31"
       },
       {
-        "id": "hpe-it-infrastructure-pm",
-        "title": "IT Infrastructure Project Manager",
-        "company": "Hewlett Packard Enterprise (HPE)",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "",
-        "match_score": 78,
-        "tier": 2,
-        "tags": [
-          "PMP",
-          "PRINCE2",
-          "Stakeholder Management"
-        ],
-        "why_match": "Strong match for core foundational PM skills like stakeholder management, risk management, and budgeting, applying PMP and PRINCE2 methodologies.",
-        "apply_url": "https://careers.hpe.com/",
-        "source": "Company",
-        "posted": "2026-07-30",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-07-30"
-      },
-      {
-        "id": "barclays-scrum-master",
-        "title": "Scrum Master",
-        "company": "Barclays",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "",
-        "match_score": 75,
+        "id": "tech-mahindra-agile-program-director-automotive",
+        "title": "Agile Program Director (Automotive)",
+        "company": "Tech Mahindra",
+        "location": "Remote, India",
+        "salary": "₹55-75 LPA",
+        "match_score": 84,
         "tier": 2,
         "tags": [
           "CSM",
-          "Agile / Scrum",
-          "Risk Management"
+          "Agile",
+          "Automotive",
+          "Leadership"
         ],
-        "why_match": "Good secondary option utilizing active CSM certification and extensive Scrum Master background to guide Agile teams in a highly regulated environment.",
-        "apply_url": "https://jobs.barclays/",
+        "why_match": "A top-level director role matching your 18+ years requirement. Demands CSM credentials and Agile leadership within the automotive vertical.",
+        "apply_url": "https://careers.techmahindra.com/",
         "source": "Company",
-        "posted": "2026-07-29",
+        "posted": "2026-07-31",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "hyundai-project-manager-pmo",
+        "title": "Project Manager Program Management Office",
+        "company": "Hyundai Motor India",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹42-55 LPA",
+        "match_score": 81,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "PMO",
+          "Cost Modelling"
+        ],
+        "why_match": "Automotive giant looking for experienced PMO leadership, matching your expertise in cost modelling and performance metrics.",
+        "apply_url": "https://www.hyundai.com/in/en/hyundai-story/careers",
+        "source": "Company",
+        "posted": "2026-07-30",
         "status": "new",
         "verified": false,
-        "last_verified": "2026-07-30"
+        "last_verified": "2026-07-31"
+      },
+      {
+        "id": "hcltech-engineering-delivery-manager-transportation",
+        "title": "Engineering Delivery Manager - Transportation",
+        "company": "HCLTech",
+        "location": "Remote, India",
+        "salary": "₹45-60 LPA",
+        "match_score": 83,
+        "tier": 2,
+        "tags": [
+          "Transportation",
+          "Delivery",
+          "Stakeholder Management"
+        ],
+        "why_match": "Requires extensive senior-level leadership in transportation projects and aligns perfectly with your preference for remote opportunities.",
+        "apply_url": "https://www.hcltech.com/careers",
+        "source": "Company",
+        "posted": "2026-07-31",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-07-31"
       }
     ],
     "model": "gemini-3.1-pro-preview"
   },
   "chatgpt": {
-    "model": "gpt-4o-mini",
+    "model": "gpt-5.4-mini",
     "generated_date": "N/A",
     "profile_summary": "",
     "jobs": []
   },
   "careerops": {
     "model": "Career Ops (ATS Direct)",
-    "generated_date": "2026-07-30",
+    "generated_date": "2026-07-31",
     "profile_summary": "Senior Project Leader | 18+ yrs | Direct ATS Scanner (Greenhouse, Lever & Corporate ATS)",
     "jobs": [
       {
@@ -271,7 +294,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -294,7 +317,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -317,7 +340,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -340,7 +363,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -363,7 +386,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -386,7 +409,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -409,7 +432,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -432,7 +455,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -455,7 +478,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -478,7 +501,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -501,7 +524,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -524,7 +547,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -547,7 +570,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -570,7 +593,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -593,7 +616,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
+        "last_verified": "2026-07-31",
         "applied": false,
         "is_repeat": true
       },
@@ -617,8 +640,9 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
-        "applied": false
+        "last_verified": "2026-07-31",
+        "applied": false,
+        "is_repeat": true
       },
       {
         "id": "ops-cyient-pdl-hyd",
@@ -640,8 +664,9 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
-        "applied": false
+        "last_verified": "2026-07-31",
+        "applied": false,
+        "is_repeat": true
       },
       {
         "id": "ops-schneider-pmo-head",
@@ -663,8 +688,9 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
-        "applied": false
+        "last_verified": "2026-07-31",
+        "applied": false,
+        "is_repeat": true
       },
       {
         "id": "ops-ltts-edl-remote",
@@ -686,8 +712,9 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
-        "applied": false
+        "last_verified": "2026-07-31",
+        "applied": false,
+        "is_repeat": true
       },
       {
         "id": "ops-zf-pdm-hyd",
@@ -709,8 +736,9 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-07-30",
-        "applied": false
+        "last_verified": "2026-07-31",
+        "applied": false,
+        "is_repeat": true
       }
     ]
   }
