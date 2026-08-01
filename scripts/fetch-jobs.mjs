@@ -23,7 +23,7 @@ const OUTPUT_PATH = path.join(BASE_DIR, 'data', 'jobs.json');
 
 // Profile and prompt
 const { PROFILE } = await import('../lib/profile-data.js');
-const { buildJobSearchPrompt } = await import('../lib/job-search.js');
+const { buildJobSearchPrompt, buildChatGPTJobPrompt } = await import('../lib/job-search.js');
 
 // Config
 const GEMINI_MODEL = process.env.GEMINI_MODEL_ID || 'gemini-flash-latest';
@@ -78,7 +78,7 @@ async function generateWithGemini(prompt) {
 /**
  * Generate job listings using ChatGPT via OpenAI API key
  */
-async function generateWithChatGPT(prompt) {
+async function generateWithChatGPT() {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     console.log('  ⚠️  OPENAI_API_KEY not set, skipping ChatGPT');
@@ -86,6 +86,7 @@ async function generateWithChatGPT(prompt) {
   }
 
   try {
+    const prompt = buildChatGPTJobPrompt();
     console.log(`  🟢 Calling ChatGPT (${OPENAI_MODEL}) ...`);
 
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -97,7 +98,7 @@ async function generateWithChatGPT(prompt) {
       body: JSON.stringify({
         model: OPENAI_MODEL,
         messages: [{ role: 'user', content: prompt }],
-        temperature: 0.2,
+        temperature: 0.3,
         response_format: { type: 'json_object' },
       }),
     });
@@ -519,7 +520,7 @@ async function verifyJobs(jobs) {
         redirect: 'follow',
       });
       clearTimeout(timeout);
-      job.verified = resp.status < 400;
+      job.verified = resp.status < 400 || resp.status === 403 || resp.status === 405;
       job.last_verified = new Date().toISOString().split('T')[0];
       if (job.verified) verified++;
       else {
@@ -550,7 +551,7 @@ async function main() {
   // Run Gemini, ChatGPT, and Career Ops scanner in parallel
   const [geminiResult, chatgptResult, careerOpsResult] = await Promise.all([
     generateWithGemini(prompt),
-    generateWithChatGPT(prompt),
+    generateWithChatGPT(),
     fetchCareerOpsJobs(),
   ]);
 
