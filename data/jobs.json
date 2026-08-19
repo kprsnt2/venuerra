@@ -1,234 +1,278 @@
 {
-  "lastUpdated": "2026-08-18T01:39:06.939Z",
+  "lastUpdated": "2026-08-19T01:40:45.250Z",
   "gemini": {
     "month": "August 2026",
-    "generated_date": "2026-08-18",
+    "generated_date": "2026-08-19",
     "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | Rail Transport & Automotive",
     "jobs": [
       {
-        "id": "valuelabs-delivery-manager-senior-pm-hyd",
-        "title": "Delivery Manager / Senior Project Manager",
-        "company": "ValueLabs",
+        "id": "alstom-director-project-delivery-hyd",
+        "title": "Director - Project Delivery (Rail Signalling)",
+        "company": "Alstom",
         "location": "Hyderabad, Telangana, India",
-        "salary": "₹45 Lakhs - ₹55 Lakhs LPA",
+        "salary": "₹45-55 LPA",
         "match_score": 95,
         "tier": 1,
         "tags": [
+          "Rail Transport",
           "PMP",
-          "Agile",
-          "Logistics/Transport",
-          "Delivery Management"
+          "Signalling",
+          "Delivery Director"
         ],
-        "why_match": "Perfect geographical and skill alignment with your Senior Project Leader role; leverages PMP/Agile certifications for complex tech and transport logistics domain projects.",
-        "apply_url": "https://www.valuelabs.com/careers/",
+        "why_match": "Perfect fit for an 18+ year rail domain expert with PMP and Scrum Master certifications. Meets strict seniority and high salary requirements in the primary target city.",
+        "apply_url": "https://www.alstom.com/careers",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "siemens-lead-delivery-manager-thane",
-        "title": "Lead Delivery Manager (Rail & Infrastructure)",
-        "company": "Siemens",
-        "location": "Thane, Maharashtra, India",
-        "salary": "₹45 Lakhs - ₹65 Lakhs LPA",
-        "match_score": 99,
+        "id": "siemens-senior-delivery-manager-remote",
+        "title": "Senior Project Delivery Manager - Rolling Stock",
+        "company": "Siemens Mobility",
+        "location": "Remote, India",
+        "salary": "₹40-50 LPA",
+        "match_score": 92,
         "tier": 1,
         "tags": [
-          "Rail Transport",
-          "Delivery Management",
-          "Infrastructure",
-          "PMP"
+          "Rail",
+          "Rolling Stock",
+          "PRINCE2",
+          "PMP",
+          "Remote"
         ],
-        "why_match": "Exceptional match for your Rail Transport domain expertise. Involves steering complex, mission-critical project execution and aligns perfectly with your Alten UK / Bombardier background.",
-        "apply_url": "https://jobs.siemens.com/careers",
+        "why_match": "Direct match for senior project leadership in the Rail sector requiring PRINCE2. Fulfills the highest priority location preference (Remote) with a ₹40+ LPA salary.",
+        "apply_url": "https://jobs.siemens.com/careers?query=Mobility",
         "source": "Company",
-        "posted": "2026-08-17",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "volvo-experienced-project-manager-blr",
-        "title": "Experienced Project Manager (Automotive NPD)",
-        "company": "Volvo Group",
+        "id": "wabtec-engineering-delivery-lead-blr",
+        "title": "Engineering Delivery Lead - Locomotive Systems",
+        "company": "Wabtec Corporation",
         "location": "Bengaluru, Karnataka, India",
-        "salary": "₹40 Lakhs - ₹50 Lakhs LPA",
+        "salary": "₹40-45 LPA",
+        "match_score": 88,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "Locomotive",
+          "Scrum Master",
+          "Delivery Lead"
+        ],
+        "why_match": "Wabtec specializes in rail/freight technology. Matches candidate's Scrum Master background, Rail/Auto domain experience, and target senior leadership title.",
+        "apply_url": "https://careers.wabteccorp.com/",
+        "source": "Company",
+        "posted": "2026-08-18",
+        "status": "new",
+        "verified": false,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "cyient-senior-project-leader-hyd",
+        "title": "Senior Project Leader - Rail Transportation",
+        "company": "Cyient",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹42-50 LPA",
         "match_score": 98,
         "tier": 1,
         "tags": [
-          "Automotive",
-          "Project Management",
-          "NPD",
-          "PRINCE2"
+          "Rail",
+          "PMP",
+          "PRINCE2",
+          "Stakeholder Management"
         ],
-        "why_match": "Directly matches your 18+ years of Automotive domain expertise. Focuses on New Product Development and strict QDCF goals where PMP and PRINCE2 frameworks excel.",
-        "apply_url": "https://www.volvogroup.com/en/careers.html",
+        "why_match": "Extremely strong match. Returns candidate to a former employer (Cyient) at an elevated Senior Leader grade in his preferred city of Hyderabad, focusing purely on Rail.",
+        "apply_url": "https://www.cyient.com/careers",
         "source": "Company",
-        "posted": "2026-08-17",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "kbd-global-delivery-manager-auto",
-        "title": "Global Delivery Manager - Automotive Domain",
-        "company": "KBD Talent Forge (Tier 1 Automotive Client)",
-        "location": "Pune, Maharashtra, India",
-        "salary": "₹55 Lakhs - ₹80 Lakhs LPA",
-        "match_score": 97,
-        "tier": 1,
-        "tags": [
-          "Automotive",
-          "Global Delivery",
-          "Digital Transformation",
-          "PMP"
-        ],
-        "why_match": "Exceptional salary and seniority match. Requires 16-18+ years of experience leading large-scale delivery operations specifically in the Automotive domain.",
-        "apply_url": "https://www.iimjobs.com/j/global-delivery-manager-automotive-domain-16-18-yrs-1685835.html",
-        "source": "Other",
-        "posted": "2026-08-17",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "mahindra-program-manager-hcv-pune",
-        "title": "Program Manager - HCV (Heavy Commercial Vehicles)",
-        "company": "Mahindra & Mahindra Ltd",
-        "location": "Pune, Maharashtra, India",
-        "salary": "₹40 Lakhs - ₹60 Lakhs LPA",
+        "id": "alten-head-of-pmo-blr",
+        "title": "Head of Project Management Office (PMO)",
+        "company": "ALTEN India",
+        "location": "Bengaluru, Karnataka, India",
+        "salary": "₹45-60 LPA",
         "match_score": 96,
         "tier": 1,
         "tags": [
           "Automotive",
-          "HCV",
           "PMO",
-          "Risk Management"
+          "Executive Leadership"
         ],
-        "why_match": "Heavy commercial vehicle automotive PM role requiring deep project planning, resource management, and execution capabilities tailored for an 18+ years veteran.",
-        "apply_url": "https://jobs.mahindra.com/",
+        "why_match": "Leverages current tenure at ALTEN UK for an executive PMO Head role at ALTEN India, meeting the massive 18+ years criteria and heavy automotive engineering background.",
+        "apply_url": "https://www.alten.com/careers/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-08-18"
+        "verified": true,
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "tata-motors-senior-manager-project-execution",
-        "title": "Senior Manager / Project Director - Execution",
-        "company": "Tata Motors",
+        "id": "tata-tech-pmo-manager-pune",
+        "title": "PMO Manager - Automotive Engineering Services",
+        "company": "Tata Technologies",
         "location": "Pune, Maharashtra, India",
-        "salary": "₹40 Lakhs - ₹55 Lakhs LPA",
+        "salary": "₹40-48 LPA",
+        "match_score": 89,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "PMO",
+          "PMP",
+          "Risk Management"
+        ],
+        "why_match": "Matches core skill set (PMO, Automotive, PMP, Risk Management) at a premium tier for an 18+ year automotive project veteran.",
+        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "source": "Company",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "ltts-delivery-director-remote",
+        "title": "Delivery Director - Transportation (Auto & Rail)",
+        "company": "L&T Technology Services",
+        "location": "Remote, India",
+        "salary": "₹50-65 LPA",
         "match_score": 94,
         "tier": 1,
         "tags": [
           "Automotive",
-          "Execution",
-          "Cost Modelling",
-          "PMP"
+          "Rail",
+          "Delivery Director",
+          "Remote"
         ],
-        "why_match": "Senior leadership role overseeing end-to-end execution of new part development, product launches, and budget management in the automotive domain.",
-        "apply_url": "https://www.tatamotors.com/careers/",
+        "why_match": "A dual-domain (Auto & Rail) Director role that perfectly captures his complete 18-year career history. Highly compensated and fully remote.",
+        "apply_url": "https://www.ltts.com/careers",
         "source": "Company",
-        "posted": "2026-08-17",
+        "posted": "2026-08-18",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "magna-project-manager-pmo-blr",
-        "title": "Senior Project Manager, PMO",
-        "company": "Magna International",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "₹42 Lakhs - ₹55 Lakhs LPA",
-        "match_score": 92,
+        "id": "kpit-project-manager-scrum-master",
+        "title": "Project Manager Scrum Master - Automotive Software",
+        "company": "KPIT Technologies",
+        "location": "Pune, Maharashtra, India",
+        "salary": "₹40-45 LPA",
+        "match_score": 85,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "CSM",
+          "Agile",
+          "Scrum Master"
+        ],
+        "why_match": "Explicitly requests a Project Manager/Scrum Master hybrid in Automotive, mapping 1:1 with his CSM credential and Target Roles list.",
+        "apply_url": "https://www.kpit.com/careers/",
+        "source": "Company",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "cognizant-senior-delivery-lead-hyd",
+        "title": "Senior Delivery Lead - IoT & Engineering (Automotive)",
+        "company": "Cognizant",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹40-52 LPA",
+        "match_score": 87,
+        "tier": 2,
+        "tags": [
+          "Automotive",
+          "Agile",
+          "PMP",
+          "Delivery Lead"
+        ],
+        "why_match": "Senior Delivery role at a previous employer (Cognizant) situated in the target location (Hyderabad), requiring 15+ years of PM experience.",
+        "apply_url": "https://careers.cognizant.com/global/en",
+        "source": "Company",
+        "posted": "2026-08-18",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "hyundai-gm-project-management-hyd",
+        "title": "General Manager - Project Management (R&D)",
+        "company": "Hyundai Motor India Engineering",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹55-70 LPA",
+        "match_score": 90,
         "tier": 1,
         "tags": [
-          "PMO",
-          "Automotive IT",
-          "PMP",
-          "Stakeholder Management"
-        ],
-        "why_match": "Ideal PMO leadership role at a global automotive supplier. Utilizes your PMP framework knowledge for high-level engineering and IT process improvements.",
-        "apply_url": "https://careers.magna.com/",
-        "source": "Company",
-        "posted": "2026-08-18",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "quest-global-techno-functional-delivery-manager-hyd",
-        "title": "Techno-functional Delivery Manager",
-        "company": "Quest Global",
-        "location": "Hyderabad, Telangana, India",
-        "salary": "₹40 Lakhs - ₹55 Lakhs LPA",
-        "match_score": 91,
-        "tier": 2,
-        "tags": [
-          "Hi-Tech",
-          "Delivery Lead",
-          "Team Leadership"
-        ],
-        "why_match": "Strong geographical match in Hyderabad combining technical program delivery with budget management, quality assurance, and stakeholder alignment.",
-        "apply_url": "https://careers.quest-global.com/",
-        "source": "Company",
-        "posted": "2026-08-18",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "ather-operations-program-manager-blr",
-        "title": "Program Manager - Manufacturing & Operations",
-        "company": "Ather Energy",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "₹40 Lakhs - ₹52 Lakhs LPA",
-        "match_score": 89,
-        "tier": 2,
-        "tags": [
-          "Electric Vehicles",
           "Automotive",
-          "Operations",
-          "Agile"
+          "R&D",
+          "General Manager",
+          "PMP"
         ],
-        "why_match": "High-growth EV automotive role managing critical manufacturing operational KPIs. Leverages your CSM/Scrum Master and Agile problem-solving toolkit.",
-        "apply_url": "https://atherenergy.com/careers",
+        "why_match": "Highly senior role commanding a massive salary tier. Requires 18+ years Auto R&D project management, located in preferred city of Hyderabad.",
+        "apply_url": "https://hmie.in/careers.html",
+        "source": "Company",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "capgemini-senior-pm-rail-remote",
+        "title": "Senior Project Manager - Rail Infrastructure",
+        "company": "Capgemini Engineering",
+        "location": "Remote, India",
+        "salary": "₹40-48 LPA",
+        "match_score": 91,
+        "tier": 1,
+        "tags": [
+          "Rail",
+          "PMP",
+          "PRINCE2",
+          "Remote"
+        ],
+        "why_match": "Fully remote role within India focusing on heavy rail engineering, strict requirements for PMP/PRINCE2 certifications at the senior grade.",
+        "apply_url": "https://www.capgemini.com/in-en/careers/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "experian-program-manager-transformation",
-        "title": "Program Manager - Transformation (Automotive Insights)",
-        "company": "Experian",
-        "location": "Remote, India",
-        "salary": "₹45 Lakhs - ₹60 Lakhs LPA",
-        "match_score": 88,
+        "id": "hcltech-program-delivery-director-blr",
+        "title": "Program Delivery Director - Auto & Aero",
+        "company": "HCLTech",
+        "location": "Bengaluru, Karnataka, India",
+        "salary": "₹45-55 LPA",
+        "match_score": 84,
         "tier": 2,
         "tags": [
-          "Remote",
-          "Automotive Data",
-          "PMP",
-          "Agile"
+          "Automotive",
+          "Program Delivery",
+          "Leadership"
         ],
-        "why_match": "Fully remote position combining automotive market expertise with Agile and PMP frameworks to lead complex transformation programs at the director/senior level.",
-        "apply_url": "https://www.experian.com/careers/",
+        "why_match": "Director-level leadership role hitting the 18+ years requirement and minimum ₹40LPA baseline. Strong focus on automotive delivery operations.",
+        "apply_url": "https://www.hcltech.com/careers",
         "source": "Company",
-        "posted": "2026-08-17",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       }
     ],
     "model": "gemini-3.1-pro-preview"
   },
   "chatgpt": {
-    "generated_date": "2026-08-18",
+    "generated_date": "2026-08-19",
     "profile_summary": "Senior Project Leader | 18+ yrs | PMP® PRINCE2® CSM® | ₹40 LPA+ Cap",
     "jobs": [
       {
@@ -237,27 +281,29 @@
         "company": "Alstom",
         "location": "Hyderabad, Telangana, India",
         "salary": "₹40 - 55 LPA",
-        "match_score": 98,
+        "match_score": 97,
         "tier": 1,
         "tags": [
           "Rail",
           "PMP",
           "Project Delivery",
-          "Senior Leadership"
+          "Stakeholder Management"
         ],
-        "why_match": "Strong rail-domain alignment, senior delivery ownership, and a fit for PMP/PRINCE2-led complex project execution.",
+        "why_match": "Strong rail-domain fit with senior project leadership, delivery ownership, and cross-functional coordination aligned to PMP/PRINCE2 experience.",
         "apply_url": "https://www.alstom.com/careers",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
         "id": "ltts-project-delivery-manager-india",
         "title": "Project Delivery Manager",
         "company": "L&T Technology Services",
-        "location": "Bengaluru, Karnataka, India",
+        "location": "Bangalore, Karnataka, India",
         "salary": "₹40 - 50 LPA",
         "match_score": 96,
         "tier": 1,
@@ -267,41 +313,43 @@
           "Program Management",
           "Automotive"
         ],
-        "why_match": "Matches senior engineering delivery leadership across automotive/industrial programs with strong PMP and stakeholder management fit.",
+        "why_match": "Matches senior engineering delivery leadership in automotive/industrial domains with strong program governance and client-facing execution.",
         "apply_url": "https://www.ltts.com/careers",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "cyient-senior-project-manager-rail-india",
-        "title": "Senior Project Manager - Rail",
+        "id": "cyient-senior-project-manager-india",
+        "title": "Senior Project Manager",
         "company": "Cyient",
         "location": "Hyderabad, Telangana, India",
         "salary": "₹40 - 52 LPA",
-        "match_score": 97,
+        "match_score": 95,
         "tier": 1,
         "tags": [
-          "Rail",
           "Project Management",
-          "Delivery",
-          "Stakeholder Management"
+          "Engineering",
+          "PMP",
+          "Delivery"
         ],
-        "why_match": "Excellent rail-sector match with senior project leadership, delivery governance, and cross-functional coordination requirements.",
+        "why_match": "Senior delivery role in engineering services with scope for large programs, stakeholder management, and governance—well aligned to 18+ years experience.",
         "apply_url": "https://www.cyient.com/careers",
         "source": "Company",
-        "posted": "2026-08-18",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
         "id": "schneider-electric-pmo-manager-india",
         "title": "PMO Manager",
         "company": "Schneider Electric",
-        "location": "Bengaluru, Karnataka, India",
+        "location": "Bangalore, Karnataka, India",
         "salary": "₹40 - 48 LPA",
         "match_score": 94,
         "tier": 1,
@@ -309,103 +357,111 @@
           "PMO",
           "Governance",
           "PMP",
-          "Portfolio Management"
+          "Portfolio"
         ],
-        "why_match": "Fits a senior PMO/governance role requiring delivery oversight, reporting discipline, and executive stakeholder engagement.",
+        "why_match": "Excellent fit for PMO leadership, portfolio governance, reporting, and process discipline expected from a PMP/PRINCE2 senior leader.",
         "apply_url": "https://www.se.com/in/en/about-us/careers/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
         "id": "siemens-project-delivery-lead-india",
         "title": "Project Delivery Lead",
         "company": "Siemens",
         "location": "Pune, Maharashtra, India",
-        "salary": "₹40 - 50 LPA",
+        "salary": "₹40 - 55 LPA",
         "match_score": 95,
         "tier": 1,
         "tags": [
-          "Engineering Delivery",
-          "Project Delivery",
+          "Delivery Leadership",
+          "Engineering",
           "PMP",
-          "Leadership"
+          "Stakeholder Management"
         ],
-        "why_match": "Strong fit for senior delivery leadership in complex engineering environments with structured project governance.",
-        "apply_url": "https://www.siemens.com/in/en/company/jobs.html",
+        "why_match": "Senior delivery leadership role suitable for managing complex engineering programs with strong governance and client engagement.",
+        "apply_url": "https://jobs.siemens.com/careers",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
         "id": "hitachi-senior-project-manager-india",
         "title": "Senior Project Manager",
         "company": "Hitachi",
         "location": "Remote, India",
-        "salary": "₹40 - 55 LPA",
+        "salary": "₹40 - 50 LPA",
         "match_score": 93,
         "tier": 1,
         "tags": [
-          "Project Management",
           "Remote",
+          "Project Management",
           "PMP",
-          "Delivery"
+          "Program Delivery"
         ],
-        "why_match": "Suitable for a senior project leader with broad delivery experience and certification-backed execution discipline.",
-        "apply_url": "https://www.hitachi.com/careers/",
+        "why_match": "Remote senior project leadership role with broad delivery accountability, suitable for an experienced PMP/PRINCE2 professional.",
+        "apply_url": "https://careers.hitachi.com/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
-        "verified": false,
-        "last_verified": "2026-08-18"
+        "applied": false,
+        "is_repeat": true,
+        "verified": true,
+        "last_verified": "2026-08-19"
       },
       {
         "id": "jlr-project-manager-program-management-office-india",
         "title": "Project Manager - Program Management Office",
         "company": "Jaguar Land Rover",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "₹40 - 50 LPA",
-        "match_score": 95,
-        "tier": 1,
-        "tags": [
-          "Automotive",
-          "PMO",
-          "Program Management",
-          "PMP"
-        ],
-        "why_match": "Excellent automotive-domain fit with PMO leadership, program coordination, and senior stakeholder management.",
-        "apply_url": "https://www.jaguarlandrovercareers.com/",
-        "source": "Company",
-        "posted": "2026-08-18",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "tata-technologies-engineering-delivery-lead-india",
-        "title": "Engineering Delivery Lead",
-        "company": "Tata Technologies",
-        "location": "Pune, Maharashtra, India",
-        "salary": "₹40 - 52 LPA",
+        "location": "Bangalore, Karnataka, India",
+        "salary": "₹40 - 55 LPA",
         "match_score": 96,
         "tier": 1,
         "tags": [
           "Automotive",
-          "Engineering Delivery",
-          "Leadership",
-          "PMP"
+          "PMO",
+          "PMP",
+          "Program Management"
         ],
-        "why_match": "Strong match for automotive engineering delivery leadership with senior program execution and team coordination.",
-        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "why_match": "Very strong automotive-domain fit with PMO/program governance responsibilities and senior stakeholder management.",
+        "apply_url": "https://www.jaguarlandrovercareers.com/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "tata-technologies-project-manager-automotive-india",
+        "title": "Project Manager",
+        "company": "Tata Technologies",
+        "location": "Pune, Maharashtra, India",
+        "salary": "₹40 - 48 LPA",
+        "match_score": 95,
+        "tier": 1,
+        "tags": [
+          "Automotive",
+          "Engineering Delivery",
+          "PMP",
+          "Client Management"
+        ],
+        "why_match": "Matches automotive engineering project leadership with end-to-end delivery, customer coordination, and senior execution ownership.",
+        "apply_url": "https://www.tatatechnologies.com/careers/",
+        "source": "Company",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
       },
       {
         "id": "cognizant-scrum-master-senior-india",
@@ -413,7 +469,7 @@
         "company": "Cognizant",
         "location": "Hyderabad, Telangana, India",
         "salary": "₹40 - 45 LPA",
-        "match_score": 90,
+        "match_score": 92,
         "tier": 1,
         "tags": [
           "Scrum Master",
@@ -421,108 +477,110 @@
           "CSM",
           "Delivery"
         ],
-        "why_match": "Matches CSM-certified agile leadership with senior delivery coordination and cross-functional team facilitation.",
+        "why_match": "Good fit for CSM-certified senior agile delivery leadership, especially where program coordination and team facilitation are required.",
         "apply_url": "https://careers.cognizant.com/",
         "source": "Company",
         "posted": "2026-08-18",
         "status": "new",
+        "applied": false,
+        "is_repeat": true,
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "wsp-project-manager-rail-india",
-        "title": "Project Manager - Rail",
-        "company": "WSP",
-        "location": "Remote, India",
-        "salary": "₹40 - 50 LPA",
-        "match_score": 97,
-        "tier": 1,
-        "tags": [
-          "Rail",
-          "Project Management",
-          "Remote",
-          "PMP"
-        ],
-        "why_match": "Very strong rail-domain and senior project management fit, especially for delivery across multidisciplinary teams.",
-        "apply_url": "https://www.wsp.com/en-in/careers",
-        "source": "Company",
-        "posted": "2026-08-18",
-        "status": "new",
-        "verified": true,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "zf-group-project-delivery-manager-india",
+        "id": "wsp-project-delivery-manager-india",
         "title": "Project Delivery Manager",
-        "company": "ZF Group",
-        "location": "Hyderabad, Telangana, India",
+        "company": "WSP",
+        "location": "Bangalore, Karnataka, India",
         "salary": "₹40 - 50 LPA",
         "match_score": 94,
         "tier": 1,
         "tags": [
-          "Automotive",
-          "Project Delivery",
+          "Delivery Management",
+          "Infrastructure",
           "PMP",
-          "Leadership"
+          "Governance"
         ],
-        "why_match": "Good automotive delivery leadership opportunity with senior project governance and cross-functional coordination.",
-        "apply_url": "https://www.zf.com/mobile/en/careers/careers.html",
+        "why_match": "Senior delivery role in infrastructure/engineering with strong governance, planning, and stakeholder management alignment.",
+        "apply_url": "https://www.wsp.com/en-in/careers",
         "source": "Company",
-        "posted": "2026-08-18",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
       },
       {
-        "id": "indeed-senior-project-leader-hyderabad-india",
+        "id": "zf-group-senior-project-leader-india",
         "title": "Senior Project Leader",
-        "company": "Indeed",
+        "company": "ZF Group",
         "location": "Hyderabad, Telangana, India",
-        "salary": "₹40 - 45 LPA",
-        "match_score": 88,
-        "tier": 2,
-        "tags": [
-          "Project Leadership",
-          "Delivery",
-          "Stakeholder Management",
-          "PMP"
-        ],
-        "why_match": "Senior leadership role with broad project ownership and delivery coordination, suitable for a seasoned PM profile.",
-        "apply_url": "https://in.indeed.com/cmp/Indeed/jobs",
-        "source": "Indeed",
-        "posted": "2026-08-18",
-        "status": "new",
-        "verified": false,
-        "last_verified": "2026-08-18"
-      },
-      {
-        "id": "linkedin-pmo-manager-bangalore-india",
-        "title": "PMO Manager",
-        "company": "LinkedIn",
-        "location": "Bengaluru, Karnataka, India",
-        "salary": "₹40 - 55 LPA",
-        "match_score": 92,
+        "salary": "₹40 - 52 LPA",
+        "match_score": 96,
         "tier": 1,
         "tags": [
-          "PMO",
-          "Governance",
-          "Program Management",
-          "Leadership"
+          "Automotive",
+          "Project Leadership",
+          "PMP",
+          "Engineering"
         ],
-        "why_match": "Suitable for a senior PMO leader with strong governance, reporting, and executive communication experience.",
-        "apply_url": "https://www.linkedin.com/jobs/",
-        "source": "LinkedIn",
-        "posted": "2026-08-18",
+        "why_match": "Excellent automotive leadership fit for a senior project leader with experience in complex engineering delivery and cross-functional teams.",
+        "apply_url": "https://www.zf.com/mobile/en/careers/careers.html",
+        "source": "Company",
+        "posted": "2026-08-19",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18"
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "indeed-india-senior-project-manager-remote",
+        "title": "Senior Project Manager",
+        "company": "Indeed",
+        "location": "Remote, India",
+        "salary": "₹40 - 50 LPA",
+        "match_score": 90,
+        "tier": 1,
+        "tags": [
+          "Remote",
+          "Project Management",
+          "PMP",
+          "Delivery"
+        ],
+        "why_match": "Remote senior project management role suitable for an experienced leader with strong delivery, planning, and stakeholder management skills.",
+        "apply_url": "https://in.indeed.com/jobs?q=Senior+Project+Manager&l=Remote",
+        "source": "Indeed",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
+      },
+      {
+        "id": "linkedin-india-project-delivery-lead-hyderabad",
+        "title": "Project Delivery Lead",
+        "company": "LinkedIn",
+        "location": "Hyderabad, Telangana, India",
+        "salary": "₹40 - 55 LPA",
+        "match_score": 91,
+        "tier": 1,
+        "tags": [
+          "Delivery Leadership",
+          "Program Management",
+          "Agile",
+          "Stakeholder Management"
+        ],
+        "why_match": "Senior delivery leadership role with strong program coordination and execution focus, suitable for a seasoned project leader.",
+        "apply_url": "https://www.linkedin.com/jobs/search/?keywords=Project%20Delivery%20Lead&location=Hyderabad%2C%20Telangana%2C%20India",
+        "source": "LinkedIn",
+        "posted": "2026-08-19",
+        "status": "new",
+        "verified": true,
+        "last_verified": "2026-08-19"
       }
     ],
     "model": "gpt-5.4-mini"
   },
   "careerops": {
     "model": "Career Ops (ATS Direct)",
-    "generated_date": "2026-08-18",
+    "generated_date": "2026-08-19",
     "profile_summary": "Senior Project Leader | 18+ yrs | Direct ATS Scanner (Greenhouse, Lever & Corporate ATS)",
     "jobs": [
       {
@@ -544,7 +602,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -567,7 +625,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -590,7 +648,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -613,7 +671,7 @@
         "posted": "2026-08-10",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -636,7 +694,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -659,7 +717,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -682,7 +740,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -705,7 +763,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -728,7 +786,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -751,7 +809,7 @@
         "posted": "2026-08-11",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -774,7 +832,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -797,7 +855,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -820,7 +878,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -843,7 +901,7 @@
         "posted": "2026-08-12",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -867,7 +925,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -891,7 +949,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -915,7 +973,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -939,7 +997,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       },
@@ -963,7 +1021,7 @@
         "posted": "2026-07-30",
         "status": "new",
         "verified": true,
-        "last_verified": "2026-08-18",
+        "last_verified": "2026-08-19",
         "applied": false,
         "is_repeat": true
       }
