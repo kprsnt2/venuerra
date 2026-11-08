@@ -245,7 +245,7 @@
         "last_verified": "2026-09-17"
       }
     ],
-    "model": "gemini-3.1-pro-preview"
+    "model": "gemini-flash-latest"
   },
   "chatgpt": {
     "generated_date": "2026-09-17",
